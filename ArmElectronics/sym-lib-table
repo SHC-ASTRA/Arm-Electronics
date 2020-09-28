@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ArmElectronics_Library)(type Legacy)(uri ${KIPRJMOD}/ArmElectronics_Library.lib)(options "")(descr ""))
+  (lib (name MainElectronicsLib)(type Legacy)(uri C:/Users/Thomas/Documents/GitHub/Prototype-Rover-Electronics/Prototype-Rover-Electronics/MainElectronics/Library/MainElectronicsLib.lib)(options "")(descr ""))
+)
