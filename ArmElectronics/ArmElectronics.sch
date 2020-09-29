@@ -57,4 +57,15 @@ F 3 "" H 8200 1500 50  0001 C CNN
 	1    8300 1700
 	1    0    0    -1  
 $EndComp
+$Comp
+L ArmElectronics_Library:Teensy4.1 U?
+U 1 1 5F72F20F
+P 2250 4900
+F 0 "U?" H 2200 5615 50  0000 C CNN
+F 1 "Teensy4.1" H 2200 5524 50  0000 C CNN
+F 2 "" H 2100 4900 50  0001 C CNN
+F 3 "" H 2100 4900 50  0001 C CNN
+	1    2250 4900
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
