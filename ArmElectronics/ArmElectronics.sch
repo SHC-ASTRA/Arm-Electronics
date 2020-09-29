@@ -46,4 +46,15 @@ F 3 "~" H 7300 1300 50  0001 C CNN
 	1    7300 1300
 	1    0    0    -1  
 $EndComp
+$Comp
+L AidenMiniLibrary:Pololu_2851 U?
+U 1 1 5F72D60A
+P 8300 1700
+F 0 "U?" H 8258 2325 50  0000 C CNN
+F 1 "Pololu_2851" H 8258 2234 50  0000 C CNN
+F 2 "" H 8200 1500 50  0001 C CNN
+F 3 "" H 8200 1500 50  0001 C CNN
+	1    8300 1700
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
