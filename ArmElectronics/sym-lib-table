@@ -1,4 +1,4 @@
 (sym_lib_table
-  (lib (name AidenMiniLibrary)(type Legacy)(uri ${KIPRJMOD}/AidenMiniLibrary.lib)(options "")(descr ""))
   (lib (name ArmElectronics_Library)(type Legacy)(uri ${KIPRJMOD}/ArmElectronics_Library.lib)(options "")(descr ""))
+  (lib (name ArmElectronics-rescue)(type Legacy)(uri ${KIPRJMOD}/ArmElectronics-rescue.lib)(options "")(descr ""))
 )
