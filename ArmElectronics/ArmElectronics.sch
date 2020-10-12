@@ -47,17 +47,6 @@ F 3 "~" H 5350 3550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmElectronics-rescue:Pololu_2851-AidenMiniLibrary U?
-U 1 1 5F72D60A
-P 6350 3950
-F 0 "U?" H 6308 4575 50  0000 C CNN
-F 1 "Pololu_2851" H 6308 4484 50  0000 C CNN
-F 2 "" H 6250 3750 50  0001 C CNN
-F 3 "" H 6250 3750 50  0001 C CNN
-	1    6350 3950
-	1    0    0    -1  
-$EndComp
-$Comp
 L ArmElectronics_Library:Teensy4.1 U?
 U 1 1 5F72F20F
 P 2250 4900
@@ -553,4 +542,15 @@ Wire Wire Line
 	13850 4500 13950 4500
 Wire Wire Line
 	15050 4500 15150 4500
+$Comp
+L ArmElectronics_Library:Pololu_2851 U?
+U 1 1 5F880EAA
+P 6350 2950
+F 0 "U?" H 6308 3575 50  0000 C CNN
+F 1 "Pololu_2851" H 6308 3484 50  0000 C CNN
+F 2 "" H 6250 2750 50  0001 C CNN
+F 3 "" H 6250 2750 50  0001 C CNN
+	1    6350 2950
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
