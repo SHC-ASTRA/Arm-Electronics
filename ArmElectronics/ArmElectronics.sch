@@ -27,12 +27,12 @@ $EndComp
 $Comp
 L ArmElectronics_Library:BNO055_Adafruit_Breakout U4
 U 1 1 5F72BC87
-P 9400 5400
-F 0 "U4" H 9400 5915 50  0000 C CNN
-F 1 "BNO055_Adafruit_Breakout" H 9400 5824 50  0000 C CNN
-F 2 "" H 9400 5200 50  0001 C CNN
-F 3 "" H 9400 5200 50  0001 C CNN
-	1    9400 5400
+P 9350 6300
+F 0 "U4" H 9350 6815 50  0000 C CNN
+F 1 "BNO055_Adafruit_Breakout" H 9350 6724 50  0000 C CNN
+F 2 "" H 9350 6100 50  0001 C CNN
+F 3 "" H 9350 6100 50  0001 C CNN
+	1    9350 6300
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2087,48 +2087,48 @@ M3_HALL2_3v
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5F97F9E7
-P 8700 5150
-F 0 "#PWR?" H 8700 5000 50  0001 C CNN
-F 1 "+3.3V" H 8715 5323 50  0000 C CNN
-F 2 "" H 8700 5150 50  0001 C CNN
-F 3 "" H 8700 5150 50  0001 C CNN
-	1    8700 5150
+P 8650 6050
+F 0 "#PWR?" H 8650 5900 50  0001 C CNN
+F 1 "+3.3V" H 8665 6223 50  0000 C CNN
+F 2 "" H 8650 6050 50  0001 C CNN
+F 3 "" H 8650 6050 50  0001 C CNN
+	1    8650 6050
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 5150 9050 5150
-NoConn ~ 9050 5250
+	8650 6050 9000 6050
+NoConn ~ 9000 6150
 $Comp
 L power:GND #PWR?
 U 1 1 5F9C4909
-P 8850 5800
-F 0 "#PWR?" H 8850 5550 50  0001 C CNN
-F 1 "GND" H 8855 5627 50  0000 C CNN
-F 2 "" H 8850 5800 50  0001 C CNN
-F 3 "" H 8850 5800 50  0001 C CNN
-	1    8850 5800
+P 8800 6700
+F 0 "#PWR?" H 8800 6450 50  0001 C CNN
+F 1 "GND" H 8805 6527 50  0000 C CNN
+F 2 "" H 8800 6700 50  0001 C CNN
+F 3 "" H 8800 6700 50  0001 C CNN
+	1    8800 6700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9050 5350 8850 5350
+	9000 6250 8800 6250
 Wire Wire Line
-	8850 5350 8850 5800
-Text Label 8700 5450 2    50   ~ 0
+	8800 6250 8800 6700
+Text Label 8650 6350 2    50   ~ 0
 RPi_SDA
-Text Label 8700 5550 2    50   ~ 0
+Text Label 8650 6450 2    50   ~ 0
 RPi_SCL
 Wire Wire Line
-	8700 5450 9050 5450
+	8650 6350 9000 6350
 Wire Wire Line
-	8700 5550 9050 5550
-NoConn ~ 9750 5250
-NoConn ~ 9750 5350
-NoConn ~ 9750 5450
-NoConn ~ 9750 5550
-Text Label 8700 5650 2    50   ~ 0
+	8650 6450 9000 6450
+NoConn ~ 9700 6150
+NoConn ~ 9700 6250
+NoConn ~ 9700 6350
+NoConn ~ 9700 6450
+Text Label 8650 6550 2    50   ~ 0
 BNO055_RST
 Wire Wire Line
-	8700 5650 9050 5650
+	8650 6550 9000 6550
 Text Label 3050 1950 0    50   ~ 0
 RPi_SDA
 Wire Wire Line
@@ -2141,4 +2141,165 @@ Text Label 3050 2250 0    50   ~ 0
 BNO055_RST
 Wire Wire Line
 	3050 2250 2900 2250
+$Comp
+L Connector:USB_A J?
+U 1 1 5F8F258C
+P 9350 4700
+F 0 "J?" H 9407 5167 50  0000 C CNN
+F 1 "RasPi Power Out" H 9407 5076 50  0000 C CNN
+F 2 "" H 9500 4650 50  0001 C CNN
+F 3 " ~" H 9500 4650 50  0001 C CNN
+	1    9350 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 5F9045DB
+P 9850 4750
+F 0 "R?" H 9909 4796 50  0000 L CNN
+F 1 "200" H 9909 4705 50  0000 L CNN
+F 2 "" H 9850 4750 50  0001 C CNN
+F 3 "~" H 9850 4750 50  0001 C CNN
+	1    9850 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9650 4700 9750 4700
+Wire Wire Line
+	9750 4700 9750 4650
+Wire Wire Line
+	9750 4650 9850 4650
+Wire Wire Line
+	9850 4850 9750 4850
+Wire Wire Line
+	9750 4850 9750 4800
+Wire Wire Line
+	9750 4800 9650 4800
+$Comp
+L power:+5V #PWR?
+U 1 1 5F926B4C
+P 9850 4500
+F 0 "#PWR?" H 9850 4350 50  0001 C CNN
+F 1 "+5V" H 9865 4673 50  0000 C CNN
+F 2 "" H 9850 4500 50  0001 C CNN
+F 3 "" H 9850 4500 50  0001 C CNN
+	1    9850 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9850 4500 9650 4500
+$Comp
+L power:GND #PWR?
+U 1 1 5F93795A
+P 9350 5200
+F 0 "#PWR?" H 9350 4950 50  0001 C CNN
+F 1 "GND" H 9355 5027 50  0000 C CNN
+F 2 "" H 9350 5200 50  0001 C CNN
+F 3 "" H 9350 5200 50  0001 C CNN
+	1    9350 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9350 5200 9350 5150
+Wire Wire Line
+	9350 5150 9250 5150
+Wire Wire Line
+	9250 5150 9250 5100
+Wire Wire Line
+	9350 5100 9350 5150
+Connection ~ 9350 5150
+$Comp
+L power:GND #PWR?
+U 1 1 5F95A831
+P 2050 4050
+F 0 "#PWR?" H 2050 3800 50  0001 C CNN
+F 1 "GND" H 2055 3877 50  0000 C CNN
+F 2 "" H 2050 4050 50  0001 C CNN
+F 3 "" H 2050 4050 50  0001 C CNN
+	1    2050 4050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1700 3850 1700 4050
+Wire Wire Line
+	1700 4050 1800 4050
+Wire Wire Line
+	2050 4050 2100 4050
+Wire Wire Line
+	2400 4050 2400 3850
+Connection ~ 2050 4050
+Wire Wire Line
+	2300 3850 2300 4050
+Connection ~ 2300 4050
+Wire Wire Line
+	2300 4050 2400 4050
+Wire Wire Line
+	2200 3850 2200 4050
+Connection ~ 2200 4050
+Wire Wire Line
+	2200 4050 2300 4050
+Wire Wire Line
+	2100 3850 2100 4050
+Connection ~ 2100 4050
+Wire Wire Line
+	2100 4050 2200 4050
+Wire Wire Line
+	2000 3850 2000 4050
+Connection ~ 2000 4050
+Wire Wire Line
+	2000 4050 2050 4050
+Wire Wire Line
+	1900 3850 1900 4050
+Connection ~ 1900 4050
+Wire Wire Line
+	1900 4050 2000 4050
+Wire Wire Line
+	1800 3850 1800 4050
+Connection ~ 1800 4050
+Wire Wire Line
+	1800 4050 1900 4050
+Text Label 1300 1650 2    50   ~ 0
+RPi_TX
+Text Label 1300 1750 2    50   ~ 0
+RPi_RX
+Text Label 4600 1500 2    50   ~ 0
+RPi_TX
+Text Label 4600 1600 2    50   ~ 0
+RPi_RX
+Text Label 4600 1700 2    50   ~ 0
+M1_PWM1_3v
+Text Label 4600 1800 2    50   ~ 0
+M1_PWM2_3v
+Text Label 4600 2100 2    50   ~ 0
+M1_HALL2_3v
+Text Label 4600 2000 2    50   ~ 0
+M1_HALL1_3v
+Text Label 4600 1900 2    50   ~ 0
+M1_DIAG_3v
+Text Label 5400 2600 0    50   ~ 0
+M1_OCM_3v
+Text Label 4600 2200 2    50   ~ 0
+M2_PWM1_3v
+Text Label 4600 2300 2    50   ~ 0
+M2_PWM2_3v
+Text Label 4600 2600 2    50   ~ 0
+M2_HALL2_3v
+Text Label 4600 2500 2    50   ~ 0
+M2_HALL1_3v
+Text Label 4600 2400 2    50   ~ 0
+M2_DIAG_3v
+Text Label 4600 2900 2    50   ~ 0
+M3_PWM1_3v
+Text Label 4600 3000 2    50   ~ 0
+M3_PWM2_3v
+Text Label 4600 3300 2    50   ~ 0
+M3_HALL2_3v
+Text Label 4600 3200 2    50   ~ 0
+M3_HALL1_3v
+Text Label 4600 3100 2    50   ~ 0
+M3_DIAG_3v
+Text Label 5400 2500 0    50   ~ 0
+M2_OCM_3v
+Text Label 5400 2400 0    50   ~ 0
+M3_OCM_3v
 $EndSCHEMATC
