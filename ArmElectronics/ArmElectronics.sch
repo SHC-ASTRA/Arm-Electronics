@@ -2060,25 +2060,25 @@ Text Label 4600 1900 2    50   ~ 0
 M1_DIAG_3v
 Text Label 5400 2600 0    50   ~ 0
 M1_OCM_3v
-Text Label 4600 2200 2    50   ~ 0
+Text Label 5400 1700 0    50   ~ 0
 M2_PWM1_3v
-Text Label 4600 2300 2    50   ~ 0
+Text Label 5400 1800 0    50   ~ 0
 M2_PWM2_3v
-Text Label 4600 2600 2    50   ~ 0
+Text Label 5400 2100 0    50   ~ 0
 M2_HALL2_3v
-Text Label 4600 2500 2    50   ~ 0
+Text Label 5400 2000 0    50   ~ 0
 M2_HALL1_3v
-Text Label 4600 2400 2    50   ~ 0
+Text Label 5400 1900 0    50   ~ 0
 M2_DIAG_3v
-Text Label 4600 2900 2    50   ~ 0
-M3_PWM1_3v
-Text Label 4600 3000 2    50   ~ 0
-M3_PWM2_3v
 Text Label 4600 3300 2    50   ~ 0
+M3_PWM1_3v
+Text Label 4600 3400 2    50   ~ 0
+M3_PWM2_3v
+Text Label 4600 3700 2    50   ~ 0
 M3_HALL2_3v
-Text Label 4600 3200 2    50   ~ 0
+Text Label 4600 3600 2    50   ~ 0
 M3_HALL1_3v
-Text Label 4600 3100 2    50   ~ 0
+Text Label 4600 3500 2    50   ~ 0
 M3_DIAG_3v
 Text Label 5400 2500 0    50   ~ 0
 M2_OCM_3v
@@ -2481,14 +2481,399 @@ F 3 "~" H 2800 6100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmElectronics_Library:Pololu_3730 U?
+L ArmElectronics_Library:Pololu_3730 U4
 U 1 1 5FD37DEB
 P 12200 7050
-F 0 "U?" H 12600 7981 50  0000 C CNN
+F 0 "U4" H 12600 7981 50  0000 C CNN
 F 1 "Pololu_3730" H 12600 7890 50  0000 C CNN
-F 2 "" H 12600 6200 50  0001 C CNN
+F 2 "ArmElectronics_Footprints:Pololu_3730" H 12600 6200 50  0001 C CNN
 F 3 "" H 12600 6200 50  0001 C CNN
+F 4 "2183-3730-ND" H 12200 7050 50  0001 C CNN "Digikey Part Num"
 	1    12200 7050
 	1    0    0    -1  
 $EndComp
+$Comp
+L power:+3.3V #PWR0112
+U 1 1 5FD3A2EE
+P 11700 6550
+F 0 "#PWR0112" H 11700 6400 50  0001 C CNN
+F 1 "+3.3V" H 11715 6723 50  0000 C CNN
+F 2 "" H 11700 6550 50  0001 C CNN
+F 3 "" H 11700 6550 50  0001 C CNN
+	1    11700 6550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11700 6550 12000 6550
+NoConn ~ 12000 6450
+$Comp
+L power:+3.3V #PWR0113
+U 1 1 5FD65C7A
+P 11300 7350
+F 0 "#PWR0113" H 11300 7200 50  0001 C CNN
+F 1 "+3.3V" H 11315 7523 50  0000 C CNN
+F 2 "" H 11300 7350 50  0001 C CNN
+F 3 "" H 11300 7350 50  0001 C CNN
+	1    11300 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 7350 12000 7350
+$Comp
+L power:GND #PWR0114
+U 1 1 5FDA6F4C
+P 11300 6650
+F 0 "#PWR0114" H 11300 6400 50  0001 C CNN
+F 1 "GND" H 11305 6477 50  0000 C CNN
+F 2 "" H 11300 6650 50  0001 C CNN
+F 3 "" H 11300 6650 50  0001 C CNN
+	1    11300 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	11300 6650 12000 6650
+Text Label 4600 2500 2    50   ~ 0
+Teensy_CS0
+Text Label 4600 2600 2    50   ~ 0
+Teensy_MOSI0
+Text Label 4600 2700 2    50   ~ 0
+Teensy_MISO0
+Text Label 12000 7250 2    50   ~ 0
+Teensy_CS0
+Text Label 12000 6950 2    50   ~ 0
+Teensy_MISO0
+Text Label 5400 2700 0    50   ~ 0
+Teensy_SCK0
+Text Label 12000 7150 2    50   ~ 0
+Teensy_SCK0
+Text Label 12000 7050 2    50   ~ 0
+Teensy_MOSI0
+Text Label 12000 7550 2    50   ~ 0
+Stepper_Fault
+Text Label 12000 6750 2    50   ~ 0
+Stepper_Step
+Text Label 12000 6850 2    50   ~ 0
+Stepper_Dir
+$Comp
+L power:+BATT #PWR0115
+U 1 1 5FE176A0
+P 13450 6500
+F 0 "#PWR0115" H 13450 6350 50  0001 C CNN
+F 1 "+BATT" H 13465 6673 50  0000 C CNN
+F 2 "" H 13450 6500 50  0001 C CNN
+F 3 "" H 13450 6500 50  0001 C CNN
+	1    13450 6500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 6500 13300 6500
+Wire Wire Line
+	13300 6500 13300 6600
+Wire Wire Line
+	13300 6600 13200 6600
+Wire Wire Line
+	13200 6500 13300 6500
+Connection ~ 13300 6500
+$Comp
+L power:GND #PWR0116
+U 1 1 5FE44F5F
+P 13450 6700
+F 0 "#PWR0116" H 13450 6450 50  0001 C CNN
+F 1 "GND" H 13455 6527 50  0000 C CNN
+F 2 "" H 13450 6700 50  0001 C CNN
+F 3 "" H 13450 6700 50  0001 C CNN
+	1    13450 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13450 6700 13300 6700
+Wire Wire Line
+	13300 6700 13300 6800
+Wire Wire Line
+	13300 6800 13200 6800
+Wire Wire Line
+	13200 6700 13300 6700
+Connection ~ 13300 6700
+Text Label 12700 7950 2    50   ~ 0
+Stepper_Stall
+Text Label 12800 8050 2    50   ~ 0
+Stepper_BEMF
+Wire Wire Line
+	12700 7950 12700 7700
+Wire Wire Line
+	12800 7700 12800 8050
+NoConn ~ 12000 7450
+NoConn ~ 12500 7700
+NoConn ~ 12600 7700
+Text Label 4600 2200 2    50   ~ 0
+Stepper_Step
+Text Label 4600 2300 2    50   ~ 0
+Stepper_Dir
+Text Label 4600 2400 2    50   ~ 0
+Stepper_Fault
+Text Label 5400 2200 0    50   ~ 0
+Stepper_Stall
+Text Label 5400 2300 0    50   ~ 0
+Stepper_BEMF
+$Comp
+L power:+5V #PWR0117
+U 1 1 5FFF9EB5
+P 5600 1400
+F 0 "#PWR0117" H 5600 1250 50  0001 C CNN
+F 1 "+5V" H 5615 1573 50  0000 C CNN
+F 2 "" H 5600 1400 50  0001 C CNN
+F 3 "" H 5600 1400 50  0001 C CNN
+	1    5600 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5600 1400 5400 1400
+$Comp
+L power:GND #PWR0118
+U 1 1 60014053
+P 6000 1500
+F 0 "#PWR0118" H 6000 1250 50  0001 C CNN
+F 1 "GND" H 6005 1327 50  0000 C CNN
+F 2 "" H 6000 1500 50  0001 C CNN
+F 3 "" H 6000 1500 50  0001 C CNN
+	1    6000 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 1500 5400 1500
+$Comp
+L power:GND #PWR0119
+U 1 1 60047C39
+P 6100 2800
+F 0 "#PWR0119" H 6100 2550 50  0001 C CNN
+F 1 "GND" H 6105 2627 50  0000 C CNN
+F 2 "" H 6100 2800 50  0001 C CNN
+F 3 "" H 6100 2800 50  0001 C CNN
+	1    6100 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 2800 5400 2800
+$Comp
+L power:GND #PWR0120
+U 1 1 600621BC
+P 4000 1400
+F 0 "#PWR0120" H 4000 1150 50  0001 C CNN
+F 1 "GND" H 4005 1227 50  0000 C CNN
+F 2 "" H 4000 1400 50  0001 C CNN
+F 3 "" H 4000 1400 50  0001 C CNN
+	1    4000 1400
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4000 1400 4600 1400
+Text Label 4600 2900 2    50   ~ 0
+Teensy_SCL2
+Text Label 4600 3000 2    50   ~ 0
+Teensy_SDA2
+Text Label 5400 3700 0    50   ~ 0
+Teensy_GPIO33
+Text Label 5400 3400 0    50   ~ 0
+Teensy_GPIO36
+Text Label 5400 3300 0    50   ~ 0
+Teensy_GPIO37
+Text Label 5400 3200 0    50   ~ 0
+Teensy_CS1
+Text Label 5400 3100 0    50   ~ 0
+Teensy_MISO1
+Text Label 5400 3000 0    50   ~ 0
+Teensy_GPIO40
+Text Label 4600 3100 2    50   ~ 0
+Teensy_MOSI1
+Text Label 4600 3200 2    50   ~ 0
+Teensy_SCK1
+Text Label 3100 2850 0    50   ~ 0
+RPi_MISO0
+Wire Wire Line
+	3100 2850 2900 2850
+Text Label 3100 2950 0    50   ~ 0
+RPi_MOSI0
+Text Label 3100 3050 0    50   ~ 0
+RPi_SCLK0
+Text Label 3100 2750 0    50   ~ 0
+RPi_CS0
+Wire Wire Line
+	3100 2750 2900 2750
+Wire Wire Line
+	2900 2950 3100 2950
+Wire Wire Line
+	3100 3050 2900 3050
+Text Label 3100 3250 0    50   ~ 0
+RPi_GPIO12
+Text Label 3100 3350 0    50   ~ 0
+RPi_GPIO13
+Text Label 1100 2750 2    50   ~ 0
+RPi_GPI022
+Text Label 1100 2850 2    50   ~ 0
+RPi_GPIO23
+Wire Wire Line
+	1100 2750 1300 2750
+Wire Wire Line
+	1100 2850 1300 2850
+Wire Wire Line
+	1100 3050 1300 3050
+Wire Wire Line
+	1100 2950 1300 2950
+Text Label 1100 2950 2    50   ~ 0
+RPi_GPIO24
+Text Label 1100 3050 2    50   ~ 0
+RPi_GPIO25
+Text Label 5400 3600 0    50   ~ 0
+Teensy_GPIO34
+Text Label 5400 3500 0    50   ~ 0
+Teensy_GPIO35
+Wire Wire Line
+	2900 3250 3100 3250
+Wire Wire Line
+	2900 3350 3100 3350
+$Comp
+L Connector_Generic:Conn_01x14 J7
+U 1 1 6027376F
+P 2450 8350
+F 0 "J7" H 2530 8342 50  0000 L CNN
+F 1 "Conn_01x14" H 2530 8251 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 2450 8350 50  0001 C CNN
+F 3 "~" H 2450 8350 50  0001 C CNN
+	1    2450 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0121
+U 1 1 60277681
+P 1650 7850
+F 0 "#PWR0121" H 1650 7600 50  0001 C CNN
+F 1 "GND" H 1655 7677 50  0000 C CNN
+F 2 "" H 1650 7850 50  0001 C CNN
+F 3 "" H 1650 7850 50  0001 C CNN
+	1    1650 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0122
+U 1 1 60294CED
+P 1650 7750
+F 0 "#PWR0122" H 1650 7600 50  0001 C CNN
+F 1 "+3.3V" H 1665 7923 50  0000 C CNN
+F 2 "" H 1650 7750 50  0001 C CNN
+F 3 "" H 1650 7750 50  0001 C CNN
+	1    1650 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1650 7750 2250 7750
+Wire Wire Line
+	1650 7850 2250 7850
+Text Label 2250 7950 2    50   ~ 0
+RPi_SCL
+Text Label 2250 8050 2    50   ~ 0
+RPi_SDA
+Text Label 2250 8150 2    50   ~ 0
+RPi_SCLK0
+Text Label 2250 8250 2    50   ~ 0
+RPi_MOSI0
+Text Label 2250 8350 2    50   ~ 0
+RPi_MISO0
+Text Label 2250 8450 2    50   ~ 0
+RPi_CS0
+Text Label 2250 8550 2    50   ~ 0
+RPi_GPIO12
+Text Label 2250 8650 2    50   ~ 0
+RPi_GPIO13
+Text Label 2250 8750 2    50   ~ 0
+RPi_GPI022
+Text Label 2250 8850 2    50   ~ 0
+RPi_GPIO23
+Text Label 2250 8950 2    50   ~ 0
+RPi_GPIO24
+Text Label 2250 9050 2    50   ~ 0
+RPi_GPIO25
+$Comp
+L Connector_Generic:Conn_01x14 J8
+U 1 1 6030A7BA
+P 4150 8350
+F 0 "J8" H 4230 8342 50  0000 L CNN
+F 1 "Conn_01x14" H 4230 8251 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 4150 8350 50  0001 C CNN
+F 3 "~" H 4150 8350 50  0001 C CNN
+	1    4150 8350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0123
+U 1 1 6030A7C4
+P 3350 7850
+F 0 "#PWR0123" H 3350 7600 50  0001 C CNN
+F 1 "GND" H 3355 7677 50  0000 C CNN
+F 2 "" H 3350 7850 50  0001 C CNN
+F 3 "" H 3350 7850 50  0001 C CNN
+	1    3350 7850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0124
+U 1 1 6030A7CE
+P 3350 7750
+F 0 "#PWR0124" H 3350 7600 50  0001 C CNN
+F 1 "+3.3V" H 3365 7923 50  0000 C CNN
+F 2 "" H 3350 7750 50  0001 C CNN
+F 3 "" H 3350 7750 50  0001 C CNN
+	1    3350 7750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 7750 3950 7750
+Wire Wire Line
+	3350 7850 3950 7850
+Text Label 3950 7950 2    50   ~ 0
+Teensy_SCL2
+Text Label 3950 8050 2    50   ~ 0
+Teensy_SDA2
+Text Label 3950 8150 2    50   ~ 0
+Teensy_SCK1
+Text Label 3950 8250 2    50   ~ 0
+Teensy_MOSI1
+Text Label 3950 8350 2    50   ~ 0
+Teensy_MISO1
+Text Label 3950 8450 2    50   ~ 0
+Teensy_CS1
+Text Label 3950 8550 2    50   ~ 0
+Teensy_GPIO36
+Text Label 3950 8650 2    50   ~ 0
+Teensy_GPIO37
+Text Label 3950 8750 2    50   ~ 0
+Teensy_GPIO33
+Text Label 3950 8850 2    50   ~ 0
+Teensy_GPIO34
+Text Label 3950 8950 2    50   ~ 0
+Teensy_GPIO35
+Text Label 3950 9050 2    50   ~ 0
+Teensy_GPIO40
+$Comp
+L 1792245:1792245 J9
+U 1 1 60349CBC
+P 14150 7100
+F 0 "J9" H 14280 7196 50  0000 L CNN
+F 1 "1792245" H 14280 7105 50  0000 L CNN
+F 2 "Imported_Libraries:PHOENIX_1792245" H 14150 7100 50  0001 L BNN
+F 3 "" H 14150 7100 50  0001 L BNN
+F 4 "Phoenix Contact" H 14150 7100 50  0001 L BNN "MANUFACTURER"
+F 5 "29.08.2013" H 14150 7100 50  0001 L BNN "PARTREV"
+F 6 "Manufacturer Recommendation" H 14150 7100 50  0001 L BNN "STANDARD"
+F 7 "277-9888-ND" H 14150 7100 50  0001 C CNN "Digikey Part Num"
+	1    14150 7100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13750 6900 13200 6900
+Wire Wire Line
+	13200 7000 13750 7000
+Wire Wire Line
+	13750 7100 13200 7100
+Wire Wire Line
+	13200 7200 13750 7200
 $EndSCHEMATC
