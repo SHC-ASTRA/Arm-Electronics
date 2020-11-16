@@ -2365,4 +2365,48 @@ Text Label 8900 7650 2    50   ~ 0
 RPi_SCL
 Wire Wire Line
 	8900 7650 9450 7650
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5FD0D6DB
+P 2050 5900
+F 0 "H1" H 2150 5946 50  0000 L CNN
+F 1 "MountingHole" H 2150 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2050 5900 50  0001 C CNN
+F 3 "~" H 2050 5900 50  0001 C CNN
+	1    2050 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5FD0EC87
+P 2050 6100
+F 0 "H2" H 2150 6146 50  0000 L CNN
+F 1 "MountingHole" H 2150 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2050 6100 50  0001 C CNN
+F 3 "~" H 2050 6100 50  0001 C CNN
+	1    2050 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5FD0EE85
+P 2800 5900
+F 0 "H3" H 2900 5946 50  0000 L CNN
+F 1 "MountingHole" H 2900 5855 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2800 5900 50  0001 C CNN
+F 3 "~" H 2800 5900 50  0001 C CNN
+	1    2800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5FD0F27C
+P 2800 6100
+F 0 "H4" H 2900 6146 50  0000 L CNN
+F 1 "MountingHole" H 2900 6055 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3" H 2800 6100 50  0001 C CNN
+F 3 "~" H 2800 6100 50  0001 C CNN
+	1    2800 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
