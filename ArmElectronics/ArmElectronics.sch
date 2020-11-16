@@ -2480,4 +2480,15 @@ F 3 "~" H 2800 6100 50  0001 C CNN
 	1    2800 6100
 	1    0    0    -1  
 $EndComp
+$Comp
+L ArmElectronics_Library:Pololu_3730 U?
+U 1 1 5FD37DEB
+P 12200 7050
+F 0 "U?" H 12600 7981 50  0000 C CNN
+F 1 "Pololu_3730" H 12600 7890 50  0000 C CNN
+F 2 "" H 12600 6200 50  0001 C CNN
+F 3 "" H 12600 6200 50  0001 C CNN
+	1    12200 7050
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
