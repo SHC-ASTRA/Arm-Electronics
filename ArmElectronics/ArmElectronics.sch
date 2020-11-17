@@ -2395,6 +2395,7 @@ F 1 "BNO055 QWIIC Conn" H 9730 7351 50  0000 L CNN
 F 2 "Connector_JST:JST_SH_SM04B-SRSS-TB_1x04-1MP_P1.00mm_Horizontal" H 9650 7450 50  0001 C CNN
 F 3 "~" H 9650 7450 50  0001 C CNN
 F 4 "1528-4646-ND" H 9650 7450 50  0001 C CNN "Digikey Part Num"
+F 5 "455-1804-1-ND" H 9650 7450 50  0001 C CNN "Additional Digikey Part Nums"
 	1    9650 7450
 	1    0    0    -1  
 $EndComp
