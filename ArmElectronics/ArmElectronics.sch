@@ -24,7 +24,7 @@ F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/r
 F 4 "1528-2235-ND" H 2100 2550 50  0001 C CNN "Additional Digikey Part Nums"
 F 5 "S9175-ND" H 2100 2550 50  0001 C CNN "Digikey Part Num"
 	1    2100 2550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
@@ -36,7 +36,7 @@ F 2 "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" H 9500 1200 50  0001 C 
 F 3 "~" H 9500 1200 50  0001 C CNN
 F 4 "not on Digikey" H 9500 1200 50  0001 C CNN "Digikey Part Num"
 	1    9500 1200
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L ArmElectronics_Library:Teensy4.1 U1
@@ -48,7 +48,7 @@ F 2 "ArmElectronics_Footprints:Teensy4.1" H 4900 1850 50  0001 C CNN
 F 3 "" H 4900 1850 50  0001 C CNN
 F 4 "1568-DEV-16996-ND" H 5050 1850 50  0001 C CNN "Digikey Part Num"
 	1    5050 1850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L ArmElectronics_Library:PA-09 U8
@@ -60,7 +60,7 @@ F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 14500 1
 F 3 "" H 14500 1350 50  0001 C CNN
 F 4 "WM3802-ND" H 14200 1500 50  0001 C CNN "Digikey Part Num"
 	1    14200 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L ArmElectronics_Library:TB9051FTG U5
@@ -72,7 +72,7 @@ F 2 "ArmElectronics_Footprints:TB9051FTG" H 12600 2050 50  0001 C CNN
 F 3 "" H 12600 2050 50  0001 C CNN
 F 4 "2183-2997-ND" H 12550 1500 50  0001 C CNN "Digikey Part Num"
 	1    12550 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L ArmElectronics_Library:Pololu_2857 U2
@@ -84,12 +84,10 @@ F 2 "ArmElectronics_Footprints:Pololu_2857" H 9400 3050 50  0001 C CNN
 F 3 "" H 9400 3050 50  0001 C CNN
 F 4 "2183-2857-ND" H 9400 3050 50  0001 C CNN "Digikey Part Num"
 	1    9400 3050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13200 1350 13950 1350
-Wire Wire Line
-	13200 1450 13950 1450
 $Comp
 L power:+12V #PWR016
 U 1 1 5F853E34
@@ -99,7 +97,7 @@ F 1 "+12V" H 13365 1323 50  0000 C CNN
 F 2 "" H 13350 1150 50  0001 C CNN
 F 3 "" H 13350 1150 50  0001 C CNN
 	1    13350 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13350 1150 13200 1150
@@ -114,7 +112,7 @@ F 1 "GND" H 13355 1327 50  0000 C CNN
 F 2 "" H 13350 1500 50  0001 C CNN
 F 3 "" H 13350 1500 50  0001 C CNN
 	1    13350 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13350 1500 13350 1250
@@ -127,7 +125,7 @@ F 1 "GND" H 11705 1177 50  0000 C CNN
 F 2 "" H 11700 1350 50  0001 C CNN
 F 3 "" H 11700 1350 50  0001 C CNN
 	1    11700 1350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11700 1350 11700 1250
@@ -142,7 +140,7 @@ F 1 "+5V" H 11815 1323 50  0000 C CNN
 F 2 "" H 11800 1150 50  0001 C CNN
 F 3 "" H 11800 1150 50  0001 C CNN
 	1    11800 1150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11800 1150 11800 1350
@@ -187,7 +185,7 @@ F 1 "+5V" H 15565 1623 50  0000 C CNN
 F 2 "" H 15550 1450 50  0001 C CNN
 F 3 "" H 15550 1450 50  0001 C CNN
 	1    15550 1450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	15550 1450 15050 1450
@@ -200,7 +198,7 @@ F 1 "GND" H 15305 1377 50  0000 C CNN
 F 2 "" H 15300 1550 50  0001 C CNN
 F 3 "" H 15300 1550 50  0001 C CNN
 	1    15300 1550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	15300 1550 15300 1350
@@ -220,7 +218,7 @@ F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 14500 3
 F 3 "" H 14500 3000 50  0001 C CNN
 F 4 "WM3802-ND" H 14200 3150 50  0001 C CNN "Digikey Part Num"
 	1    14200 3150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L ArmElectronics_Library:TB9051FTG U6
@@ -232,12 +230,10 @@ F 2 "ArmElectronics_Footprints:TB9051FTG" H 12600 3700 50  0001 C CNN
 F 3 "" H 12600 3700 50  0001 C CNN
 F 4 "2183-2997-ND" H 12550 3150 50  0001 C CNN "Digikey Part Num"
 	1    12550 3150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13200 3000 13950 3000
-Wire Wire Line
-	13200 3100 13950 3100
 $Comp
 L power:+12V #PWR018
 U 1 1 5F871CD8
@@ -247,7 +243,7 @@ F 1 "+12V" H 13365 2973 50  0000 C CNN
 F 2 "" H 13350 2800 50  0001 C CNN
 F 3 "" H 13350 2800 50  0001 C CNN
 	1    13350 2800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13350 2800 13200 2800
@@ -270,7 +266,7 @@ F 1 "GND" H 13355 2977 50  0000 C CNN
 F 2 "" H 13350 3150 50  0001 C CNN
 F 3 "" H 13350 3150 50  0001 C CNN
 	1    13350 3150
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13350 3150 13350 2900
@@ -283,7 +279,7 @@ F 1 "GND" H 11705 2827 50  0000 C CNN
 F 2 "" H 11700 3000 50  0001 C CNN
 F 3 "" H 11700 3000 50  0001 C CNN
 	1    11700 3000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11700 3000 11700 2900
@@ -298,7 +294,7 @@ F 1 "+5V" H 11815 2973 50  0000 C CNN
 F 2 "" H 11800 2800 50  0001 C CNN
 F 3 "" H 11800 2800 50  0001 C CNN
 	1    11800 2800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11800 2800 11800 3000
@@ -343,7 +339,7 @@ F 1 "+5V" H 15565 3273 50  0000 C CNN
 F 2 "" H 15550 3100 50  0001 C CNN
 F 3 "" H 15550 3100 50  0001 C CNN
 	1    15550 3100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	15550 3100 15050 3100
@@ -356,7 +352,7 @@ F 1 "GND" H 15305 3027 50  0000 C CNN
 F 2 "" H 15300 3200 50  0001 C CNN
 F 3 "" H 15300 3200 50  0001 C CNN
 	1    15300 3200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	15300 3200 15300 3000
@@ -366,8 +362,6 @@ Text Label 13850 2900 2    50   ~ 0
 M2_HALL1
 Text Label 15150 2900 0    50   ~ 0
 M2_HALL2
-Wire Wire Line
-	13850 2900 13950 2900
 Wire Wire Line
 	15050 2900 15150 2900
 $Comp
@@ -380,7 +374,7 @@ F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 14500 4
 F 3 "" H 14500 4600 50  0001 C CNN
 F 4 "WM3802-ND" H 14200 4750 50  0001 C CNN "Digikey Part Num"
 	1    14200 4750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L ArmElectronics_Library:TB9051FTG U7
@@ -392,12 +386,10 @@ F 2 "ArmElectronics_Footprints:TB9051FTG" H 12600 5300 50  0001 C CNN
 F 3 "" H 12600 5300 50  0001 C CNN
 F 4 "2183-2997-ND" H 12550 4750 50  0001 C CNN "Digikey Part Num"
 	1    12550 4750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13200 4600 13950 4600
-Wire Wire Line
-	13200 4700 13950 4700
 $Comp
 L power:+12V #PWR020
 U 1 1 5F878F08
@@ -407,7 +399,7 @@ F 1 "+12V" H 13365 4573 50  0000 C CNN
 F 2 "" H 13350 4400 50  0001 C CNN
 F 3 "" H 13350 4400 50  0001 C CNN
 	1    13350 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13350 4400 13200 4400
@@ -430,7 +422,7 @@ F 1 "GND" H 13355 4577 50  0000 C CNN
 F 2 "" H 13350 4750 50  0001 C CNN
 F 3 "" H 13350 4750 50  0001 C CNN
 	1    13350 4750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13350 4750 13350 4500
@@ -443,7 +435,7 @@ F 1 "GND" H 11705 4427 50  0000 C CNN
 F 2 "" H 11700 4600 50  0001 C CNN
 F 3 "" H 11700 4600 50  0001 C CNN
 	1    11700 4600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11700 4600 11700 4500
@@ -458,7 +450,7 @@ F 1 "+5V" H 11815 4573 50  0000 C CNN
 F 2 "" H 11800 4400 50  0001 C CNN
 F 3 "" H 11800 4400 50  0001 C CNN
 	1    11800 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11800 4400 11800 4600
@@ -503,7 +495,7 @@ F 1 "+5V" H 15565 4873 50  0000 C CNN
 F 2 "" H 15550 4700 50  0001 C CNN
 F 3 "" H 15550 4700 50  0001 C CNN
 	1    15550 4700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	15550 4700 15050 4700
@@ -516,7 +508,7 @@ F 1 "GND" H 15305 4627 50  0000 C CNN
 F 2 "" H 15300 4800 50  0001 C CNN
 F 3 "" H 15300 4800 50  0001 C CNN
 	1    15300 4800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	15300 4800 15300 4600
@@ -526,8 +518,6 @@ Text Label 13850 4500 2    50   ~ 0
 M3_HALL1
 Text Label 15150 4500 0    50   ~ 0
 M3_HALL2
-Wire Wire Line
-	13850 4500 13950 4500
 Wire Wire Line
 	15050 4500 15150 4500
 $Comp
@@ -540,7 +530,7 @@ F 2 "ArmElectronics_Footprints:Pololu_2851" H 9400 4300 50  0001 C CNN
 F 3 "" H 9400 4300 50  0001 C CNN
 F 4 "2183-2851-ND" H 9500 4500 50  0001 C CNN "Digikey Part Num"
 	1    9500 4500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR04
@@ -551,7 +541,7 @@ F 1 "GND" H 9155 1027 50  0000 C CNN
 F 2 "" H 9150 1200 50  0001 C CNN
 F 3 "" H 9150 1200 50  0001 C CNN
 	1    9150 1200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR03
@@ -562,7 +552,7 @@ F 1 "+12V" H 9165 1273 50  0000 C CNN
 F 2 "" H 9150 1100 50  0001 C CNN
 F 3 "" H 9150 1100 50  0001 C CNN
 	1    9150 1100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9150 1100 9300 1100
@@ -579,7 +569,7 @@ F 1 "GND" H 8705 3327 50  0000 C CNN
 F 2 "" H 8700 3500 50  0001 C CNN
 F 3 "" H 8700 3500 50  0001 C CNN
 	1    8700 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	8700 3500 9050 3500
@@ -592,7 +582,7 @@ F 1 "+3.3V" H 9965 3373 50  0000 C CNN
 F 2 "" H 9950 3200 50  0001 C CNN
 F 3 "" H 9950 3200 50  0001 C CNN
 	1    9950 3200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9950 3200 9750 3200
@@ -605,7 +595,7 @@ F 1 "GND" H 9955 3127 50  0000 C CNN
 F 2 "" H 9950 3300 50  0001 C CNN
 F 3 "" H 9950 3300 50  0001 C CNN
 	1    9950 3300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9950 3300 9750 3300
@@ -622,7 +612,7 @@ F 1 "GND" H 9955 4427 50  0000 C CNN
 F 2 "" H 9950 4600 50  0001 C CNN
 F 3 "" H 9950 4600 50  0001 C CNN
 	1    9950 4600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9950 4600 9950 4300
@@ -643,12 +633,10 @@ F 1 "+5V" H 10065 4273 50  0000 C CNN
 F 2 "" H 10050 4100 50  0001 C CNN
 F 3 "" H 10050 4100 50  0001 C CNN
 	1    10050 4100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	10050 4100 9800 4100
-Wire Wire Line
-	13850 1250 13950 1250
 Wire Wire Line
 	15050 1250 15150 1250
 Wire Wire Line
@@ -679,7 +667,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17400 4100 50  
 F 3 "~" H 17400 4100 50  0001 C CNN
 F 4 "P10KGCT-ND" H 17400 4100 50  0001 C CNN "Digikey Part Num"
 	1    17400 4100
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Text Label 16850 1500 2    50   ~ 0
 M1_PWM
@@ -749,7 +737,7 @@ F 2 "Connector_USB:USB_A_Molex_67643_Horizontal" H 9600 5650 50  0001 C CNN
 F 3 " ~" H 9600 5650 50  0001 C CNN
 F 4 "WM14667-ND" H 9450 5700 50  0001 C CNN "Digikey Part Num"
 	1    9450 5700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R37
@@ -761,7 +749,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 9950 5750 50  0
 F 3 "~" H 9950 5750 50  0001 C CNN
 F 4 "P200GCT-ND" H 9950 5750 50  0001 C CNN "Digikey Part Num"
 	1    9950 5750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9750 5700 9850 5700
@@ -784,7 +772,7 @@ F 1 "+5V" H 9965 5673 50  0000 C CNN
 F 2 "" H 9950 5500 50  0001 C CNN
 F 3 "" H 9950 5500 50  0001 C CNN
 	1    9950 5500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9950 5500 9750 5500
@@ -797,7 +785,7 @@ F 1 "GND" H 9455 6027 50  0000 C CNN
 F 2 "" H 9450 6200 50  0001 C CNN
 F 3 "" H 9450 6200 50  0001 C CNN
 	1    9450 6200
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9450 6200 9450 6150
@@ -817,7 +805,7 @@ F 1 "GND" H 2055 3877 50  0000 C CNN
 F 2 "" H 2050 4050 50  0001 C CNN
 F 3 "" H 2050 4050 50  0001 C CNN
 	1    2050 4050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1700 3850 1700 4050
@@ -900,7 +888,7 @@ F 2 "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" H 9500 2000 50  0001 C 
 F 3 "~" H 9500 2000 50  0001 C CNN
 F 4 "not on Digikey" H 9500 2000 50  0001 C CNN "Digikey Part Num"
 	1    9500 2000
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0106
@@ -911,7 +899,7 @@ F 1 "GND" H 9155 1827 50  0000 C CNN
 F 2 "" H 9150 2000 50  0001 C CNN
 F 3 "" H 9150 2000 50  0001 C CNN
 	1    9150 2000
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9150 2000 9300 2000
@@ -926,7 +914,7 @@ F 1 "+BATT" H 9165 2073 50  0000 C CNN
 F 2 "" H 9150 1900 50  0001 C CNN
 F 3 "" H 9150 1900 50  0001 C CNN
 	1    9150 1900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+BATT #PWR0108
@@ -937,7 +925,7 @@ F 1 "+BATT" H 8715 3573 50  0000 C CNN
 F 2 "" H 8700 3400 50  0001 C CNN
 F 3 "" H 8700 3400 50  0001 C CNN
 	1    8700 3400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+BATT #PWR0109
@@ -948,7 +936,7 @@ F 1 "+BATT" H 10065 4573 50  0000 C CNN
 F 2 "" H 10050 4400 50  0001 C CNN
 F 3 "" H 10050 4400 50  0001 C CNN
 	1    10050 4400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J5
@@ -960,7 +948,7 @@ F 2 "Connector_AMASS:AMASS_XT60-F_1x02_P7.20mm_Vertical" H 9500 2600 50  0001 C 
 F 3 "~" H 9500 2600 50  0001 C CNN
 F 4 "not on Digikey" H 9500 2600 50  0001 C CNN "Digikey Part Num"
 	1    9500 2600
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L power:GND #PWR0110
@@ -971,7 +959,7 @@ F 1 "GND" H 9155 2427 50  0000 C CNN
 F 2 "" H 9150 2600 50  0001 C CNN
 F 3 "" H 9150 2600 50  0001 C CNN
 	1    9150 2600
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9150 2600 9300 2600
@@ -986,7 +974,7 @@ F 1 "+BATT" H 9165 2673 50  0000 C CNN
 F 2 "" H 9150 2500 50  0001 C CNN
 F 3 "" H 9150 2500 50  0001 C CNN
 	1    9150 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_01x04 J6
@@ -999,7 +987,7 @@ F 3 "~" H 9650 7450 50  0001 C CNN
 F 4 "1528-4646-ND" H 9650 7450 50  0001 C CNN "Digikey Part Num"
 F 5 "455-1804-1-ND" H 9650 7450 50  0001 C CNN "Additional Digikey Part Nums"
 	1    9650 7450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0101
@@ -1010,7 +998,7 @@ F 1 "GND" H 9155 7727 50  0000 C CNN
 F 2 "" H 9150 7900 50  0001 C CNN
 F 3 "" H 9150 7900 50  0001 C CNN
 	1    9150 7900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9150 7900 9150 7350
@@ -1025,7 +1013,7 @@ F 1 "+3.3V" H 9315 7473 50  0000 C CNN
 F 2 "" H 9300 7300 50  0001 C CNN
 F 3 "" H 9300 7300 50  0001 C CNN
 	1    9300 7300
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	9300 7300 9300 7450
@@ -1048,7 +1036,7 @@ F 1 "MountingHole" H 2150 5855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2050 5900 50  0001 C CNN
 F 3 "~" H 2050 5900 50  0001 C CNN
 	1    2050 5900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H2
@@ -1059,7 +1047,7 @@ F 1 "MountingHole" H 2150 6055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2050 6100 50  0001 C CNN
 F 3 "~" H 2050 6100 50  0001 C CNN
 	1    2050 6100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H3
@@ -1070,7 +1058,7 @@ F 1 "MountingHole" H 2900 5855 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2800 5900 50  0001 C CNN
 F 3 "~" H 2800 5900 50  0001 C CNN
 	1    2800 5900
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Mechanical:MountingHole H4
@@ -1081,7 +1069,7 @@ F 1 "MountingHole" H 2900 6055 50  0000 L CNN
 F 2 "MountingHole:MountingHole_3.2mm_M3" H 2800 6100 50  0001 C CNN
 F 3 "~" H 2800 6100 50  0001 C CNN
 	1    2800 6100
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L ArmElectronics_Library:Pololu_3730 U4
@@ -1093,7 +1081,7 @@ F 2 "ArmElectronics_Footprints:Pololu_3730" H 12600 6200 50  0001 C CNN
 F 3 "" H 12600 6200 50  0001 C CNN
 F 4 "2183-3730-ND" H 12200 7050 50  0001 C CNN "Digikey Part Num"
 	1    12200 7050
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0112
@@ -1104,7 +1092,7 @@ F 1 "+3.3V" H 11715 6723 50  0000 C CNN
 F 2 "" H 11700 6550 50  0001 C CNN
 F 3 "" H 11700 6550 50  0001 C CNN
 	1    11700 6550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11700 6550 12000 6550
@@ -1118,7 +1106,7 @@ F 1 "+3.3V" H 11315 7523 50  0000 C CNN
 F 2 "" H 11300 7350 50  0001 C CNN
 F 3 "" H 11300 7350 50  0001 C CNN
 	1    11300 7350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11300 7350 12000 7350
@@ -1131,7 +1119,7 @@ F 1 "GND" H 11305 6477 50  0000 C CNN
 F 2 "" H 11300 6650 50  0001 C CNN
 F 3 "" H 11300 6650 50  0001 C CNN
 	1    11300 6650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	11300 6650 12000 6650
@@ -1166,7 +1154,7 @@ F 1 "+BATT" H 13465 6673 50  0000 C CNN
 F 2 "" H 13450 6500 50  0001 C CNN
 F 3 "" H 13450 6500 50  0001 C CNN
 	1    13450 6500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13450 6500 13300 6500
@@ -1186,7 +1174,7 @@ F 1 "GND" H 13455 6527 50  0000 C CNN
 F 2 "" H 13450 6700 50  0001 C CNN
 F 3 "" H 13450 6700 50  0001 C CNN
 	1    13450 6700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	13450 6700 13300 6700
@@ -1227,7 +1215,7 @@ F 1 "+5V" H 5615 1573 50  0000 C CNN
 F 2 "" H 5600 1400 50  0001 C CNN
 F 3 "" H 5600 1400 50  0001 C CNN
 	1    5600 1400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	5600 1400 5400 1400
@@ -1240,7 +1228,7 @@ F 1 "GND" H 6005 1327 50  0000 C CNN
 F 2 "" H 6000 1500 50  0001 C CNN
 F 3 "" H 6000 1500 50  0001 C CNN
 	1    6000 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6000 1500 5400 1500
@@ -1253,7 +1241,7 @@ F 1 "GND" H 6105 2627 50  0000 C CNN
 F 2 "" H 6100 2800 50  0001 C CNN
 F 3 "" H 6100 2800 50  0001 C CNN
 	1    6100 2800
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	6100 2800 5400 2800
@@ -1266,7 +1254,7 @@ F 1 "GND" H 4005 1227 50  0000 C CNN
 F 2 "" H 4000 1400 50  0001 C CNN
 F 3 "" H 4000 1400 50  0001 C CNN
 	1    4000 1400
-	-1   0    0    -1
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	4000 1400 4600 1400
@@ -1343,7 +1331,7 @@ F 1 "Conn_01x14" H 2530 8251 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 2450 8350 50  0001 C CNN
 F 3 "~" H 2450 8350 50  0001 C CNN
 	1    2450 8350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0121
@@ -1354,7 +1342,7 @@ F 1 "GND" H 1655 7677 50  0000 C CNN
 F 2 "" H 1650 7850 50  0001 C CNN
 F 3 "" H 1650 7850 50  0001 C CNN
 	1    1650 7850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0122
@@ -1365,7 +1353,7 @@ F 1 "+3.3V" H 1665 7923 50  0000 C CNN
 F 2 "" H 1650 7750 50  0001 C CNN
 F 3 "" H 1650 7750 50  0001 C CNN
 	1    1650 7750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	1650 7750 2250 7750
@@ -1404,7 +1392,7 @@ F 1 "Conn_01x14" H 4230 8251 50  0000 L CNN
 F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 4150 8350 50  0001 C CNN
 F 3 "~" H 4150 8350 50  0001 C CNN
 	1    4150 8350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0123
@@ -1415,7 +1403,7 @@ F 1 "GND" H 3355 7677 50  0000 C CNN
 F 2 "" H 3350 7850 50  0001 C CNN
 F 3 "" H 3350 7850 50  0001 C CNN
 	1    3350 7850
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0124
@@ -1426,7 +1414,7 @@ F 1 "+3.3V" H 3365 7923 50  0000 C CNN
 F 2 "" H 3350 7750 50  0001 C CNN
 F 3 "" H 3350 7750 50  0001 C CNN
 	1    3350 7750
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	3350 7750 3950 7750
@@ -1469,7 +1457,7 @@ F 5 "29.08.2013" H 14150 7000 50  0001 L BNN "PARTREV"
 F 6 "Manufacturer Recommendation" H 14150 7000 50  0001 L BNN "STANDARD"
 F 7 "277-9888-ND" H 14150 7000 50  0001 C CNN "Digikey Part Num"
 	1    14150 7000
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	13750 6900 13200 6900
@@ -1480,27 +1468,11 @@ Wire Wire Line
 Wire Wire Line
 	13200 7200 13750 7200
 Wire Wire Line
-	13200 1350 13950 1350
-Wire Wire Line
-	13200 1450 13650 1450
-Wire Wire Line
 	13650 1450 13650 1250
-Wire Wire Line
-	13650 1250 13950 1250
-Wire Wire Line
-	13200 3000 13950 3000
-Wire Wire Line
-	13200 3100 13650 3100
 Wire Wire Line
 	13650 3100 13650 2900
 Wire Wire Line
-	13650 2900 13950 2900
-Wire Wire Line
-	13200 4700 13600 4700
-Wire Wire Line
 	13600 4700 13600 4500
-Wire Wire Line
-	13600 4500 13950 4500
 Wire Wire Line
 	17650 3000 17500 3000
 Wire Wire Line
@@ -1519,7 +1491,7 @@ F 1 "GND" H 17505 3327 50  0000 C CNN
 F 2 "" H 17500 3500 50  0001 C CNN
 F 3 "" H 17500 3500 50  0001 C CNN
 	1    17500 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R1
@@ -1531,7 +1503,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17500 3100 50  
 F 3 "~" H 17500 3100 50  0001 C CNN
 F 4 "P10KGCT-ND" H 17500 3100 50  0001 C CNN "Digikey Part Num"
 	1    17500 3100
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	19050 3000 18900 3000
@@ -1551,7 +1523,7 @@ F 1 "GND" H 18905 3327 50  0000 C CNN
 F 2 "" H 18900 3500 50  0001 C CNN
 F 3 "" H 18900 3500 50  0001 C CNN
 	1    18900 3500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R3
@@ -1563,7 +1535,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18900 3100 50  
 F 3 "~" H 18900 3100 50  0001 C CNN
 F 4 "P10KGCT-ND" H 18900 3100 50  0001 C CNN "Digikey Part Num"
 	1    18900 3100
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R7
@@ -1575,7 +1547,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18900 3400 50  
 F 3 "~" H 18900 3400 50  0001 C CNN
 F 4 "P10KGCT-ND" H 18900 3400 50  0001 C CNN "Digikey Part Num"
 	1    18900 3400
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	20550 3050 20400 3050
@@ -1595,7 +1567,7 @@ F 1 "GND" H 20405 3377 50  0000 C CNN
 F 2 "" H 20400 3550 50  0001 C CNN
 F 3 "" H 20400 3550 50  0001 C CNN
 	1    20400 3550
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R8
@@ -1607,7 +1579,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 20400 3150 50  
 F 3 "~" H 20400 3150 50  0001 C CNN
 F 4 "P10KGCT-ND" H 20400 3150 50  0001 C CNN "Digikey Part Num"
 	1    20400 3150
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R9
@@ -1619,7 +1591,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 20400 3450 50  
 F 3 "~" H 20400 3450 50  0001 C CNN
 F 4 "P10KGCT-ND" H 20400 3450 50  0001 C CNN "Digikey Part Num"
 	1    20400 3450
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Text Label 16850 1600 2    50   ~ 0
 M1_DIR
@@ -1635,7 +1607,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 17400 1500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 17400 1500 50  0001 C CNN
 F 4 "296-15581-1-ND" H 17400 1500 50  0001 C CNN "Digikey Part Num"
 	1    17400 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR028
@@ -1646,7 +1618,7 @@ F 1 "+3.3V" H 17600 2500 50  0000 C CNN
 F 2 "" H 17400 2350 50  0001 C CNN
 F 3 "" H 17400 2350 50  0001 C CNN
 	1    17400 2350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR029
@@ -1657,7 +1629,7 @@ F 1 "GND" H 17405 2477 50  0000 C CNN
 F 2 "" H 17400 2650 50  0001 C CNN
 F 3 "" H 17400 2650 50  0001 C CNN
 	1    17400 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74LVC1G97 U12
@@ -1669,7 +1641,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 17400 2500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 17400 2500 50  0001 C CNN
 F 4 "296-15581-1-ND" H 17400 2500 50  0001 C CNN "Digikey Part Num"
 	1    17400 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR09
@@ -1680,7 +1652,7 @@ F 1 "GND" H 16955 2527 50  0000 C CNN
 F 2 "" H 16950 2700 50  0001 C CNN
 F 3 "" H 16950 2700 50  0001 C CNN
 	1    16950 2700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR01
@@ -1691,7 +1663,7 @@ F 1 "GND" H 16905 1477 50  0000 C CNN
 F 2 "" H 16900 1650 50  0001 C CNN
 F 3 "" H 16900 1650 50  0001 C CNN
 	1    16900 1650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	16900 1400 17150 1400
@@ -1715,7 +1687,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 18900 1500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18900 1500 50  0001 C CNN
 F 4 "296-15581-1-ND" H 18900 1500 50  0001 C CNN "Digikey Part Num"
 	1    18900 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR036
@@ -1726,7 +1698,7 @@ F 1 "+3.3V" H 19100 2500 50  0000 C CNN
 F 2 "" H 18900 2350 50  0001 C CNN
 F 3 "" H 18900 2350 50  0001 C CNN
 	1    18900 2350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR037
@@ -1737,7 +1709,7 @@ F 1 "GND" H 18905 2477 50  0000 C CNN
 F 2 "" H 18900 2650 50  0001 C CNN
 F 3 "" H 18900 2650 50  0001 C CNN
 	1    18900 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74LVC1G97 U14
@@ -1749,7 +1721,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 18900 2500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 18900 2500 50  0001 C CNN
 F 4 "296-15581-1-ND" H 18900 2500 50  0001 C CNN "Digikey Part Num"
 	1    18900 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR035
@@ -1760,7 +1732,7 @@ F 1 "GND" H 18455 2527 50  0000 C CNN
 F 2 "" H 18450 2700 50  0001 C CNN
 F 3 "" H 18450 2700 50  0001 C CNN
 	1    18450 2700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR034
@@ -1771,7 +1743,7 @@ F 1 "GND" H 18405 1477 50  0000 C CNN
 F 2 "" H 18400 1650 50  0001 C CNN
 F 3 "" H 18400 1650 50  0001 C CNN
 	1    18400 1650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	18400 1400 18650 1400
@@ -1795,7 +1767,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 20400 1500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20400 1500 50  0001 C CNN
 F 4 "296-15581-1-ND" H 20400 1500 50  0001 C CNN "Digikey Part Num"
 	1    20400 1500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR046
@@ -1806,7 +1778,7 @@ F 1 "+3.3V" H 20600 2500 50  0000 C CNN
 F 2 "" H 20400 2350 50  0001 C CNN
 F 3 "" H 20400 2350 50  0001 C CNN
 	1    20400 2350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR047
@@ -1817,7 +1789,7 @@ F 1 "GND" H 20405 2477 50  0000 C CNN
 F 2 "" H 20400 2650 50  0001 C CNN
 F 3 "" H 20400 2650 50  0001 C CNN
 	1    20400 2650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L 74xGxx:74LVC1G97 U16
@@ -1829,7 +1801,7 @@ F 2 "Package_TO_SOT_SMD:SOT-23-6_Handsoldering" H 20400 2500 50  0001 C CNN
 F 3 "http://www.ti.com/lit/sg/scyt129e/scyt129e.pdf" H 20400 2500 50  0001 C CNN
 F 4 "296-15581-1-ND" H 20400 2500 50  0001 C CNN "Digikey Part Num"
 	1    20400 2500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR042
@@ -1840,7 +1812,7 @@ F 1 "GND" H 19955 2527 50  0000 C CNN
 F 2 "" H 19950 2700 50  0001 C CNN
 F 3 "" H 19950 2700 50  0001 C CNN
 	1    19950 2700
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR041
@@ -1851,7 +1823,7 @@ F 1 "GND" H 19905 1477 50  0000 C CNN
 F 2 "" H 19900 1650 50  0001 C CNN
 F 3 "" H 19900 1650 50  0001 C CNN
 	1    19900 1650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
 	19900 1400 20150 1400
@@ -1924,7 +1896,7 @@ F 1 "+3.3V" H 19100 1500 50  0000 C CNN
 F 2 "" H 18900 1350 50  0001 C CNN
 F 3 "" H 18900 1350 50  0001 C CNN
 	1    18900 1350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0126
@@ -1935,7 +1907,7 @@ F 1 "+3.3V" H 17600 1500 50  0000 C CNN
 F 2 "" H 17400 1350 50  0001 C CNN
 F 3 "" H 17400 1350 50  0001 C CNN
 	1    17400 1350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR0127
@@ -1946,7 +1918,7 @@ F 1 "+3.3V" H 20600 1500 50  0000 C CNN
 F 2 "" H 20400 1350 50  0001 C CNN
 F 3 "" H 20400 1350 50  0001 C CNN
 	1    20400 1350
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0128
@@ -1957,7 +1929,7 @@ F 1 "GND" H 20405 1477 50  0000 C CNN
 F 2 "" H 20400 1650 50  0001 C CNN
 F 3 "" H 20400 1650 50  0001 C CNN
 	1    20400 1650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0129
@@ -1968,7 +1940,7 @@ F 1 "GND" H 18905 1477 50  0000 C CNN
 F 2 "" H 18900 1650 50  0001 C CNN
 F 3 "" H 18900 1650 50  0001 C CNN
 	1    18900 1650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR0130
@@ -1979,7 +1951,7 @@ F 1 "GND" H 17405 1477 50  0000 C CNN
 F 2 "" H 17400 1650 50  0001 C CNN
 F 3 "" H 17400 1650 50  0001 C CNN
 	1    17400 1650
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 Text Label 4600 1700 2    50   ~ 0
 M1_PWM
@@ -2003,7 +1975,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17500 3400 50  
 F 3 "~" H 17500 3400 50  0001 C CNN
 F 4 "P10KGCT-ND" H 17500 3400 50  0001 C CNN "Digikey Part Num"
 	1    17500 3400
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R5
@@ -2015,7 +1987,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17400 4400 50  
 F 3 "~" H 17400 4400 50  0001 C CNN
 F 4 "P20KGCT-ND" H 17400 4400 50  0001 C CNN "Digikey Part Num"
 	1    17400 4400
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	17150 4250 17400 4250
@@ -2039,7 +2011,7 @@ F 1 "GND" H 17405 4327 50  0000 C CNN
 F 2 "" H 17400 4500 50  0001 C CNN
 F 3 "" H 17400 4500 50  0001 C CNN
 	1    17400 4500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R13
@@ -2051,7 +2023,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18900 4100 50  
 F 3 "~" H 18900 4100 50  0001 C CNN
 F 4 "P10KGCT-ND" H 18900 4100 50  0001 C CNN "Digikey Part Num"
 	1    18900 4100
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R14
@@ -2063,7 +2035,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18900 4400 50  
 F 3 "~" H 18900 4400 50  0001 C CNN
 F 4 "P20KGCT-ND" H 18900 4400 50  0001 C CNN "Digikey Part Num"
 	1    18900 4400
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	18650 4250 18900 4250
@@ -2088,7 +2060,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 20400 4100 50  
 F 3 "~" H 20400 4100 50  0001 C CNN
 F 4 "P10KGCT-ND" H 20400 4100 50  0001 C CNN "Digikey Part Num"
 	1    20400 4100
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R20
@@ -2100,7 +2072,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 20400 4400 50  
 F 3 "~" H 20400 4400 50  0001 C CNN
 F 4 "P20KGCT-ND" H 20400 4400 50  0001 C CNN "Digikey Part Num"
 	1    20400 4400
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	20150 4250 20400 4250
@@ -2124,7 +2096,7 @@ F 1 "GND" H 18905 4327 50  0000 C CNN
 F 2 "" H 18900 4500 50  0001 C CNN
 F 3 "" H 18900 4500 50  0001 C CNN
 	1    18900 4500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR044
@@ -2135,7 +2107,7 @@ F 1 "GND" H 20405 4327 50  0000 C CNN
 F 2 "" H 20400 4500 50  0001 C CNN
 F 3 "" H 20400 4500 50  0001 C CNN
 	1    20400 4500
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_Small R6
@@ -2147,7 +2119,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17400 5050 50  
 F 3 "~" H 17400 5050 50  0001 C CNN
 F 4 "P10KGCT-ND" H 17400 5050 50  0001 C CNN "Digikey Part Num"
 	1    17400 5050
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R10
@@ -2159,7 +2131,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17400 5350 50  
 F 3 "~" H 17400 5350 50  0001 C CNN
 F 4 "P20KGCT-ND" H 17400 5350 50  0001 C CNN "Digikey Part Num"
 	1    17400 5350
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	17150 5200 17400 5200
@@ -2184,7 +2156,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18900 5050 50  
 F 3 "~" H 18900 5050 50  0001 C CNN
 F 4 "P10KGCT-ND" H 18900 5050 50  0001 C CNN "Digikey Part Num"
 	1    18900 5050
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R16
@@ -2196,7 +2168,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18900 5350 50  
 F 3 "~" H 18900 5350 50  0001 C CNN
 F 4 "P20KGCT-ND" H 18900 5350 50  0001 C CNN "Digikey Part Num"
 	1    18900 5350
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	18650 5200 18900 5200
@@ -2221,7 +2193,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 20400 5050 50  
 F 3 "~" H 20400 5050 50  0001 C CNN
 F 4 "P10KGCT-ND" H 20400 5050 50  0001 C CNN "Digikey Part Num"
 	1    20400 5050
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R22
@@ -2233,7 +2205,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 20400 5350 50  
 F 3 "~" H 20400 5350 50  0001 C CNN
 F 4 "P20KGCT-ND" H 20400 5350 50  0001 C CNN "Digikey Part Num"
 	1    20400 5350
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	20150 5200 20400 5200
@@ -2258,7 +2230,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17400 6000 50  
 F 3 "~" H 17400 6000 50  0001 C CNN
 F 4 "P10KGCT-ND" H 17400 6000 50  0001 C CNN "Digikey Part Num"
 	1    17400 6000
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R12
@@ -2270,7 +2242,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 17400 6300 50  
 F 3 "~" H 17400 6300 50  0001 C CNN
 F 4 "P20KGCT-ND" H 17400 6300 50  0001 C CNN "Digikey Part Num"
 	1    17400 6300
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	17150 6150 17400 6150
@@ -2295,7 +2267,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18900 6000 50  
 F 3 "~" H 18900 6000 50  0001 C CNN
 F 4 "P10KGCT-ND" H 18900 6000 50  0001 C CNN "Digikey Part Num"
 	1    18900 6000
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R18
@@ -2307,7 +2279,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 18900 6300 50  
 F 3 "~" H 18900 6300 50  0001 C CNN
 F 4 "P20KGCT-ND" H 18900 6300 50  0001 C CNN "Digikey Part Num"
 	1    18900 6300
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	18650 6150 18900 6150
@@ -2332,7 +2304,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 20400 6000 50  
 F 3 "~" H 20400 6000 50  0001 C CNN
 F 4 "P10KGCT-ND" H 20400 6000 50  0001 C CNN "Digikey Part Num"
 	1    20400 6000
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R_Small R24
@@ -2344,7 +2316,7 @@ F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" H 20400 6300 50  
 F 3 "~" H 20400 6300 50  0001 C CNN
 F 4 "P20KGCT-ND" H 20400 6300 50  0001 C CNN "Digikey Part Num"
 	1    20400 6300
-	1    0    0    1
+	1    0    0    1   
 $EndComp
 Wire Wire Line
 	20150 6150 20400 6150
@@ -2368,7 +2340,7 @@ F 1 "GND" H 17405 5277 50  0000 C CNN
 F 2 "" H 17400 5450 50  0001 C CNN
 F 3 "" H 17400 5450 50  0001 C CNN
 	1    17400 5450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR039
@@ -2379,7 +2351,7 @@ F 1 "GND" H 18905 5277 50  0000 C CNN
 F 2 "" H 18900 5450 50  0001 C CNN
 F 3 "" H 18900 5450 50  0001 C CNN
 	1    18900 5450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR045
@@ -2390,7 +2362,7 @@ F 1 "GND" H 20405 5277 50  0000 C CNN
 F 2 "" H 20400 5450 50  0001 C CNN
 F 3 "" H 20400 5450 50  0001 C CNN
 	1    20400 5450
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR049
@@ -2401,7 +2373,7 @@ F 1 "GND" H 20405 6227 50  0000 C CNN
 F 2 "" H 20400 6400 50  0001 C CNN
 F 3 "" H 20400 6400 50  0001 C CNN
 	1    20400 6400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR043
@@ -2412,7 +2384,7 @@ F 1 "GND" H 18905 6227 50  0000 C CNN
 F 2 "" H 18900 6400 50  0001 C CNN
 F 3 "" H 18900 6400 50  0001 C CNN
 	1    18900 6400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND #PWR033
@@ -2423,12 +2395,8 @@ F 1 "GND" H 17405 6227 50  0000 C CNN
 F 2 "" H 17400 6400 50  0001 C CNN
 F 3 "" H 17400 6400 50  0001 C CNN
 	1    17400 6400
-	1    0    0    -1
+	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3350 7750 3950 7750
-Wire Wire Line
-	3350 7850 3950 7850
 Text Label 3950 7950 2    50   ~ 0
 Teensy_SCL2
 Text Label 3950 8050 2    50   ~ 0
@@ -2453,27 +2421,16 @@ Text Label 3950 8950 2    50   ~ 0
 Teensy_GPIO35
 Text Label 3950 9050 2    50   ~ 0
 Teensy_GPIO40
-$Comp
-L 1792245:1792245 J9
-U 1 1 60349CBC
-P 14150 7100
-F 0 "J9" H 14280 7196 50  0000 L CNN
-F 1 "1792245" H 14280 7105 50  0000 L CNN
-F 2 "Imported_Libraries:PHOENIX_1792245" H 14150 7100 50  0001 L BNN
-F 3 "" H 14150 7100 50  0001 L BNN
-F 4 "Phoenix Contact" H 14150 7100 50  0001 L BNN "MANUFACTURER"
-F 5 "29.08.2013" H 14150 7100 50  0001 L BNN "PARTREV"
-F 6 "Manufacturer Recommendation" H 14150 7100 50  0001 L BNN "STANDARD"
-F 7 "277-9888-ND" H 14150 7100 50  0001 C CNN "Digikey Part Num"
-	1    14150 7100
-	1    0    0    -1
-$EndComp
 Wire Wire Line
-	13750 6900 13200 6900
+	13200 1450 13950 1450
 Wire Wire Line
-	13200 7000 13750 7000
+	13200 3100 13950 3100
 Wire Wire Line
-	13750 7100 13200 7100
+	13650 2900 13950 2900
 Wire Wire Line
-	13200 7200 13750 7200
+	13200 4700 13950 4700
+Wire Wire Line
+	13600 4500 13950 4500
+Wire Wire Line
+	13650 1250 13950 1250
 $EndSCHEMATC
