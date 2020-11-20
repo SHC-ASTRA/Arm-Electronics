@@ -848,29 +848,29 @@ Text Label 4600 1500 2    50   ~ 0
 RPi_TX
 Text Label 4600 1600 2    50   ~ 0
 RPi_RX
-Text Label 4600 2100 2    50   ~ 0
+Text Label 5400 1700 0    50   ~ 0
 M1_HALL2_3v
-Text Label 4600 2000 2    50   ~ 0
+Text Label 5400 1800 0    50   ~ 0
 M1_HALL1_3v
-Text Label 4600 1900 2    50   ~ 0
-M1_DIAG_3v
-Text Label 5400 2600 0    50   ~ 0
-M1_OCM_3v
-Text Label 5400 2100 0    50   ~ 0
-M2_HALL2_3v
-Text Label 5400 2000 0    50   ~ 0
-M2_HALL1_3v
 Text Label 5400 1900 0    50   ~ 0
+M1_DIAG_3v
+Text Label 5400 2000 0    50   ~ 0
+M1_OCM_3v
+Text Label 5400 2900 0    50   ~ 0
+M2_HALL2_3v
+Text Label 5400 3000 0    50   ~ 0
+M2_HALL1_3v
+Text Label 5400 2300 0    50   ~ 0
 M2_DIAG_3v
-Text Label 4600 3700 2    50   ~ 0
+Text Label 5400 3500 0    50   ~ 0
 M3_HALL2_3v
-Text Label 4600 3600 2    50   ~ 0
+Text Label 5400 3600 0    50   ~ 0
 M3_HALL1_3v
-Text Label 4600 3500 2    50   ~ 0
+Text Label 5400 3100 0    50   ~ 0
 M3_DIAG_3v
-Text Label 5400 2500 0    50   ~ 0
-M2_OCM_3v
 Text Label 5400 2400 0    50   ~ 0
+M2_OCM_3v
+Text Label 5400 3200 0    50   ~ 0
 M3_OCM_3v
 $Comp
 L Connector_Generic:Conn_01x02 J4
@@ -1190,15 +1190,15 @@ Wire Wire Line
 NoConn ~ 12000 7450
 NoConn ~ 12500 7700
 NoConn ~ 12600 7700
-Text Label 4600 2200 2    50   ~ 0
-Stepper_Step
 Text Label 4600 2300 2    50   ~ 0
-Stepper_Dir
+Stepper_Step
 Text Label 4600 2400 2    50   ~ 0
+Stepper_Dir
+Text Label 4600 2200 2    50   ~ 0
 Stepper_Fault
-Text Label 5400 2200 0    50   ~ 0
+Text Label 4600 3100 2    50   ~ 0
 Stepper_Stall
-Text Label 5400 2300 0    50   ~ 0
+Text Label 4600 3200 2    50   ~ 0
 Stepper_BEMF
 $Comp
 L power:+5V #PWR0117
@@ -1258,20 +1258,12 @@ Text Label 4600 3000 2    50   ~ 0
 Teensy_SDA2
 Text Label 5400 3700 0    50   ~ 0
 Teensy_GPIO33
-Text Label 5400 3400 0    50   ~ 0
-Teensy_GPIO36
-Text Label 5400 3300 0    50   ~ 0
-Teensy_GPIO37
-Text Label 5400 3200 0    50   ~ 0
-Teensy_CS1
-Text Label 5400 3100 0    50   ~ 0
-Teensy_MISO1
-Text Label 5400 3000 0    50   ~ 0
-Teensy_GPIO40
-Text Label 4600 3100 2    50   ~ 0
-Teensy_MOSI1
-Text Label 4600 3200 2    50   ~ 0
-Teensy_SCK1
+Text Label 4600 3500 2    50   ~ 0
+Teensy_GPIO30
+Text Label 4600 3400 2    50   ~ 0
+Teensy_GPIO29
+Text Label 4600 3300 2    50   ~ 0
+Teensy_GPIO28
 Text Label 3100 2850 0    50   ~ 0
 RPi_MISO0
 Wire Wire Line
@@ -1308,10 +1300,10 @@ Text Label 1100 2950 2    50   ~ 0
 RPi_GPIO24
 Text Label 1100 3050 2    50   ~ 0
 RPi_GPIO25
-Text Label 5400 3600 0    50   ~ 0
-Teensy_GPIO34
-Text Label 5400 3500 0    50   ~ 0
-Teensy_GPIO35
+Text Label 4600 3700 2    50   ~ 0
+Teensy_GPIO32
+Text Label 4600 3600 2    50   ~ 0
+Teensy_GPIO31
 Wire Wire Line
 	2900 3250 3100 3250
 Wire Wire Line
@@ -1378,17 +1370,6 @@ RPi_GPIO24
 Text Label 2250 9050 2    50   ~ 0
 RPi_GPIO25
 $Comp
-L Connector_Generic:Conn_01x14 J8
-U 1 1 6030A7BA
-P 4150 8350
-F 0 "J8" H 4230 8342 50  0000 L CNN
-F 1 "Conn_01x14" H 4230 8251 50  0000 L CNN
-F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 4150 8350 50  0001 C CNN
-F 3 "~" H 4150 8350 50  0001 C CNN
-	1    4150 8350
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:GND #PWR0123
 U 1 1 6030A7C4
 P 3350 7850
@@ -1418,26 +1399,8 @@ Text Label 3950 7950 2    50   ~ 0
 Teensy_SCL2
 Text Label 3950 8050 2    50   ~ 0
 Teensy_SDA2
-Text Label 3950 8150 2    50   ~ 0
-Teensy_SCK1
-Text Label 3950 8250 2    50   ~ 0
-Teensy_MOSI1
-Text Label 3950 8350 2    50   ~ 0
-Teensy_MISO1
-Text Label 3950 8450 2    50   ~ 0
-Teensy_CS1
-Text Label 3950 8550 2    50   ~ 0
-Teensy_GPIO36
-Text Label 3950 8650 2    50   ~ 0
-Teensy_GPIO37
-Text Label 3950 8750 2    50   ~ 0
-Teensy_GPIO33
-Text Label 3950 8850 2    50   ~ 0
-Teensy_GPIO34
-Text Label 3950 8950 2    50   ~ 0
-Teensy_GPIO35
 Text Label 3950 9050 2    50   ~ 0
-Teensy_GPIO40
+Teensy_GPIO33
 $Comp
 L 1792245:1792245 J9
 U 1 1 60349CBC
@@ -1879,17 +1842,17 @@ F 3 "" H 17400 1650 50  0001 C CNN
 	1    17400 1650
 	1    0    0    -1  
 $EndComp
-Text Label 4600 1700 2    50   ~ 0
+Text Label 5400 2200 0    50   ~ 0
 M1_PWM
-Text Label 4600 1800 2    50   ~ 0
+Text Label 5400 2100 0    50   ~ 0
 M1_DIR
-Text Label 5400 1700 0    50   ~ 0
+Text Label 5400 2600 0    50   ~ 0
 M2_PWM
-Text Label 5400 1800 0    50   ~ 0
+Text Label 5400 2500 0    50   ~ 0
 M2_DIR
-Text Label 4600 3300 2    50   ~ 0
+Text Label 5400 3400 0    50   ~ 0
 M3_PWM
-Text Label 4600 3400 2    50   ~ 0
+Text Label 5400 3300 0    50   ~ 0
 M3_DIR
 $Comp
 L Device:R_Small R2
@@ -2327,26 +2290,6 @@ Text Label 3950 7950 2    50   ~ 0
 Teensy_SCL2
 Text Label 3950 8050 2    50   ~ 0
 Teensy_SDA2
-Text Label 3950 8150 2    50   ~ 0
-Teensy_SCK1
-Text Label 3950 8250 2    50   ~ 0
-Teensy_MOSI1
-Text Label 3950 8350 2    50   ~ 0
-Teensy_MISO1
-Text Label 3950 8450 2    50   ~ 0
-Teensy_CS1
-Text Label 3950 8550 2    50   ~ 0
-Teensy_GPIO36
-Text Label 3950 8650 2    50   ~ 0
-Teensy_GPIO37
-Text Label 3950 8750 2    50   ~ 0
-Teensy_GPIO33
-Text Label 3950 8850 2    50   ~ 0
-Teensy_GPIO34
-Text Label 3950 8950 2    50   ~ 0
-Teensy_GPIO35
-Text Label 3950 9050 2    50   ~ 0
-Teensy_GPIO40
 Wire Wire Line
 	13200 1350 13950 1350
 Wire Wire Line
@@ -2769,4 +2712,41 @@ Wire Wire Line
 Connection ~ 20100 1950
 Wire Wire Line
 	20100 1950 20100 1600
+$Comp
+L Connector_Generic:Conn_01x14 J8
+U 1 1 6030A7BA
+P 4150 8350
+F 0 "J8" H 4230 8342 50  0000 L CNN
+F 1 "Conn_01x14" H 4230 8251 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x14_P2.54mm_Vertical" H 4150 8350 50  0001 C CNN
+F 3 "~" H 4150 8350 50  0001 C CNN
+	1    4150 8350
+	1    0    0    -1  
+$EndComp
+Text Label 3950 8750 2    50   ~ 0
+Teensy_GPIO30
+Text Label 3950 8650 2    50   ~ 0
+Teensy_GPIO29
+Text Label 3950 8550 2    50   ~ 0
+Teensy_GPIO28
+Text Label 3950 8950 2    50   ~ 0
+Teensy_GPIO32
+Text Label 3950 8850 2    50   ~ 0
+Teensy_GPIO31
+Text Label 4600 2100 2    50   ~ 0
+Teensy_GPIO6
+Text Label 4600 2000 2    50   ~ 0
+Teensy_GPIO5
+Text Label 4600 1900 2    50   ~ 0
+Teensy_GPIO4
+Text Label 4600 1800 2    50   ~ 0
+Teensy_GPIO3
+Text Label 3950 8450 2    50   ~ 0
+Teensy_GPIO6
+Text Label 3950 8350 2    50   ~ 0
+Teensy_GPIO5
+Text Label 3950 8250 2    50   ~ 0
+Teensy_GPIO4
+Text Label 3950 8150 2    50   ~ 0
+Teensy_GPIO3
 $EndSCHEMATC
