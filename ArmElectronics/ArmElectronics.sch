@@ -2530,7 +2530,7 @@ U 1 1 5FBCBE40
 P 7500 12000
 F 0 "J9" H 7270 12046 50  0000 R CNN
 F 1 "AH1815 Breakout" H 7270 11955 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 7500 12000 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 7500 12000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 7500 12000 50  0001 C CNN
 	1    7500 12000
 	1    0    0    -1  
@@ -2865,7 +2865,7 @@ U 1 1 603FF7DC
 P 9400 10600
 F 0 "J3" H 9480 10592 50  0000 L CNN
 F 1 "Encoder Breakout" H 9480 10501 50  0000 L CNN
-F 2 "Connector_JST:JST_PH_S6B-PH-K_1x06_P2.00mm_Horizontal" H 9400 10600 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 9400 10600 50  0001 C CNN
 F 3 "~" H 9400 10600 50  0001 C CNN
 	1    9400 10600
 	1    0    0    -1  
@@ -2938,7 +2938,7 @@ U 1 1 604EDEE9
 P 7500 13300
 F 0 "J10" H 7270 13346 50  0000 R CNN
 F 1 "AH1815 Breakout" H 7270 13255 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 7500 13300 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 7500 13300 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 7500 13300 50  0001 C CNN
 	1    7500 13300
 	1    0    0    -1  
@@ -2973,7 +2973,7 @@ U 1 1 605A8A22
 P 7500 14600
 F 0 "J11" H 7270 14646 50  0000 R CNN
 F 1 "AH1815 Breakout" H 7270 14555 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 7500 14600 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 7500 14600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 7500 14600 50  0001 C CNN
 	1    7500 14600
 	1    0    0    -1  
@@ -3008,7 +3008,7 @@ U 1 1 605C9F0D
 P 8750 12000
 F 0 "J12" H 8520 12046 50  0000 R CNN
 F 1 "AH1815 Breakout" H 8520 11955 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 8750 12000 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 8750 12000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 8750 12000 50  0001 C CNN
 	1    8750 12000
 	1    0    0    -1  
@@ -3043,7 +3043,7 @@ U 1 1 605EADE0
 P 8750 13300
 F 0 "J13" H 8520 13346 50  0000 R CNN
 F 1 "AH1815 Breakout" H 8520 13255 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 8750 13300 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 8750 13300 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 8750 13300 50  0001 C CNN
 	1    8750 13300
 	1    0    0    -1  
@@ -3078,7 +3078,7 @@ U 1 1 6060B497
 P 8750 14600
 F 0 "J14" H 8520 14646 50  0000 R CNN
 F 1 "AH1815 Breakout" H 8520 14555 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 8750 14600 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 8750 14600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 8750 14600 50  0001 C CNN
 	1    8750 14600
 	1    0    0    -1  
@@ -3111,7 +3111,7 @@ U 1 1 6062E622
 P 9950 12000
 F 0 "J15" H 9720 12046 50  0000 R CNN
 F 1 "AH1815 Breakout" H 9720 11955 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 9950 12000 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 9950 12000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 9950 12000 50  0001 C CNN
 	1    9950 12000
 	1    0    0    -1  
@@ -3146,7 +3146,7 @@ U 1 1 6064F58D
 P 10000 13300
 F 0 "J16" H 9770 13346 50  0000 R CNN
 F 1 "AH1815 Breakout" H 9770 13255 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 10000 13300 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 10000 13300 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 10000 13300 50  0001 C CNN
 	1    10000 13300
 	1    0    0    -1  
@@ -3181,7 +3181,7 @@ U 1 1 606707DC
 P 10000 14600
 F 0 "J17" H 9770 14646 50  0000 R CNN
 F 1 "AH1815 Breakout" H 9770 14555 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 10000 14600 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 10000 14600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 10000 14600 50  0001 C CNN
 	1    10000 14600
 	1    0    0    -1  
@@ -3216,7 +3216,7 @@ U 1 1 6069102C
 P 11200 12000
 F 0 "J18" H 10970 12046 50  0000 R CNN
 F 1 "AH1815 Breakout" H 10970 11955 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 11200 12000 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 11200 12000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 11200 12000 50  0001 C CNN
 	1    11200 12000
 	1    0    0    -1  
@@ -3251,7 +3251,7 @@ U 1 1 6069104B
 P 11250 13300
 F 0 "J19" H 11020 13346 50  0000 R CNN
 F 1 "AH1815 Breakout" H 11020 13255 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 11250 13300 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 11250 13300 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 11250 13300 50  0001 C CNN
 	1    11250 13300
 	1    0    0    -1  
@@ -3286,7 +3286,7 @@ U 1 1 6069106A
 P 11250 14600
 F 0 "J20" H 11020 14646 50  0000 R CNN
 F 1 "AH1815 Breakout" H 11020 14555 50  0000 R CNN
-F 2 "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal" H 11250 14600 50  0001 C CNN
+F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 11250 14600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 11250 14600 50  0001 C CNN
 	1    11250 14600
 	1    0    0    -1  
