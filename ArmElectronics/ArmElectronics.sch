@@ -1172,9 +1172,9 @@ Text Label 4600 2400 2    50   ~ 0
 Stepper_Dir
 Text Label 4600 2200 2    50   ~ 0
 Stepper_Fault
-Text Label 4600 3100 2    50   ~ 0
+Text Label 4600 3000 2    50   ~ 0
 Stepper_Stall
-Text Label 4600 3200 2    50   ~ 0
+Text Label 4600 3100 2    50   ~ 0
 Stepper_BEMF
 $Comp
 L power:+5V #PWR05
@@ -3429,30 +3429,22 @@ Text Label 11550 14600 0    50   ~ 0
 Hall_SW_12
 Text Label 9050 14600 0    50   ~ 0
 Hall_SW_6
-Text Label 4600 3000 2    50   ~ 0
-Hall_SW_6
-Text Label 4600 2100 2    50   ~ 0
-Hall_SW_5
-Text Label 4600 2000 2    50   ~ 0
-Hall_SW_4
-Text Label 4600 1900 2    50   ~ 0
-Hall_SW_3
-Text Label 4600 1800 2    50   ~ 0
-Hall_SW_2
-Text Label 4600 1700 2    50   ~ 0
-Hall_SW_1
-Text Label 4600 3300 2    50   ~ 0
-Hall_SW_7
-Text Label 4600 3400 2    50   ~ 0
-Hall_SW_8
 Text Label 4600 3500 2    50   ~ 0
-Hall_SW_9
-Text Label 4600 3600 2    50   ~ 0
-Hall_SW_10
+Hall_SW_6
 Text Label 4600 3700 2    50   ~ 0
-Hall_SW_11
+Hall_SW_5
+Text Label 4600 3300 2    50   ~ 0
+Hall_SW_3
 Text Label 5400 3700 0    50   ~ 0
-Hall_SW_12
+Hall_SW_2
+Text Label 4600 3400 2    50   ~ 0
+Hall_SW_1
+Text Label 4600 2100 2    50   ~ 0
+Hall_SW_7
+Text Label 4600 3600 2    50   ~ 0
+Hall_SW_8
+Text Label 4600 1900 2    50   ~ 0
+Hall_SW_9
 $Comp
 L ArmElectronics_Library:TB9051FTG U6
 U 1 1 5F8501C4
@@ -3465,4 +3457,12 @@ F 4 "2183-2997-ND" H 12550 1500 50  0001 C CNN "Digikey Part Num"
 	1    12550 1500
 	1    0    0    -1  
 $EndComp
+Text Label 4600 2000 2    50   ~ 0
+Hall_SW_10
+Text Label 4600 1700 2    50   ~ 0
+Hall_SW_11
+Text Label 4600 1800 2    50   ~ 0
+Hall_SW_12
+Text Label 4600 3200 2    50   ~ 0
+Hall_SW_4
 $EndSCHEMATC
