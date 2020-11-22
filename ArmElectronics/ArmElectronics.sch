@@ -63,18 +63,6 @@ F 4 "WM3802-ND" H 14200 1400 50  0001 C CNN "Digikey Part Num"
 	1    0    0    -1  
 $EndComp
 $Comp
-L ArmElectronics_Library:TB9051FTG U5
-U 1 1 5F8501C4
-P 12550 1500
-F 0 "U5" H 12650 2115 50  0000 C CNN
-F 1 "TB9051FTG" H 12650 2024 50  0000 C CNN
-F 2 "ArmElectronics_Footprints:TB9051FTG" H 12600 2050 50  0001 C CNN
-F 3 "" H 12600 2050 50  0001 C CNN
-F 4 "2183-2997-ND" H 12550 1500 50  0001 C CNN "Digikey Part Num"
-	1    12550 1500
-	1    0    0    -1  
-$EndComp
-$Comp
 L ArmElectronics_Library:Pololu_2857 U2
 U 1 1 5F85182A
 P 9400 3050
@@ -161,10 +149,6 @@ Wire Wire Line
 Connection ~ 11800 1450
 Wire Wire Line
 	11800 1450 11800 1550
-NoConn ~ 13200 1700
-NoConn ~ 13200 1800
-NoConn ~ 13200 1900
-NoConn ~ 13200 2000
 NoConn ~ 12100 1150
 Text Label 11700 1750 2    50   ~ 0
 M1_PWM1
@@ -313,10 +297,6 @@ Wire Wire Line
 Connection ~ 11800 3100
 Wire Wire Line
 	11800 3100 11800 3200
-NoConn ~ 13200 3350
-NoConn ~ 13200 3450
-NoConn ~ 13200 3550
-NoConn ~ 13200 3650
 NoConn ~ 12100 2800
 Text Label 11700 3400 2    50   ~ 0
 M2_PWM1
@@ -467,10 +447,6 @@ Wire Wire Line
 Connection ~ 11800 4700
 Wire Wire Line
 	11800 4700 11800 4800
-NoConn ~ 13200 4950
-NoConn ~ 13200 5050
-NoConn ~ 13200 5150
-NoConn ~ 13200 5250
 NoConn ~ 12100 4400
 Text Label 11700 5000 2    50   ~ 0
 M3_PWM1
@@ -3477,4 +3453,16 @@ Text Label 4600 3700 2    50   ~ 0
 Hall_SW_11
 Text Label 5400 3700 0    50   ~ 0
 Hall_SW_12
+$Comp
+L ArmElectronics_Library:TB9051FTG U5
+U 1 1 5F8501C4
+P 12550 1500
+F 0 "U5" H 12650 2115 50  0000 C CNN
+F 1 "TB9051FTG" H 12650 2024 50  0000 C CNN
+F 2 "ArmElectronics_Footprints:TB9051FTG" H 12600 2050 50  0001 C CNN
+F 3 "" H 12600 2050 50  0001 C CNN
+F 4 "2183-2997-ND" H 12550 1500 50  0001 C CNN "Digikey Part Num"
+	1    12550 1500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
