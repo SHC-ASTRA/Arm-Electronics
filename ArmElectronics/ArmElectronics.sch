@@ -1233,13 +1233,11 @@ F 7 "277-9888-ND" H 14150 7000 50  0001 C CNN "Digikey Part Num"
 	1    0    0    1   
 $EndComp
 Wire Wire Line
-	13750 6900 13200 6900
+	13750 6900 13700 6900
 Wire Wire Line
-	13200 7000 13750 7000
+	13750 7100 13500 7100
 Wire Wire Line
-	13750 7100 13200 7100
-Wire Wire Line
-	13200 7200 13750 7200
+	13200 7200 13400 7200
 Wire Wire Line
 	13650 3100 13650 2900
 Wire Wire Line
@@ -2532,6 +2530,7 @@ F 0 "J9" H 7270 12046 50  0000 R CNN
 F 1 "AH1815 Breakout" H 7270 11955 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 7500 12000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 7500 12000 50  0001 C CNN
+F 4 "455-1705-ND" H 7500 12000 50  0001 C CNN "Digikey Part Num"
 	1    7500 12000
 	1    0    0    -1  
 $EndComp
@@ -2867,6 +2866,7 @@ F 0 "J3" H 9480 10592 50  0000 L CNN
 F 1 "Encoder Breakout" H 9480 10501 50  0000 L CNN
 F 2 "Connector_JST:JST_PH_B6B-PH-K_1x06_P2.00mm_Vertical" H 9400 10600 50  0001 C CNN
 F 3 "~" H 9400 10600 50  0001 C CNN
+F 4 "455-1708-ND" H 9400 10600 50  0001 C CNN "Digikey Part Num"
 	1    9400 10600
 	1    0    0    -1  
 $EndComp
@@ -2940,6 +2940,7 @@ F 0 "J10" H 7270 13346 50  0000 R CNN
 F 1 "AH1815 Breakout" H 7270 13255 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 7500 13300 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 7500 13300 50  0001 C CNN
+F 4 "455-1705-ND" H 7500 13300 50  0001 C CNN "Digikey Part Num"
 	1    7500 13300
 	1    0    0    -1  
 $EndComp
@@ -2975,6 +2976,7 @@ F 0 "J11" H 7270 14646 50  0000 R CNN
 F 1 "AH1815 Breakout" H 7270 14555 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 7500 14600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 7500 14600 50  0001 C CNN
+F 4 "455-1705-ND" H 7500 14600 50  0001 C CNN "Digikey Part Num"
 	1    7500 14600
 	1    0    0    -1  
 $EndComp
@@ -3010,6 +3012,7 @@ F 0 "J12" H 8520 12046 50  0000 R CNN
 F 1 "AH1815 Breakout" H 8520 11955 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 8750 12000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 8750 12000 50  0001 C CNN
+F 4 "455-1705-ND" H 8750 12000 50  0001 C CNN "Digikey Part Num"
 	1    8750 12000
 	1    0    0    -1  
 $EndComp
@@ -3045,6 +3048,7 @@ F 0 "J13" H 8520 13346 50  0000 R CNN
 F 1 "AH1815 Breakout" H 8520 13255 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 8750 13300 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 8750 13300 50  0001 C CNN
+F 4 "455-1705-ND" H 8750 13300 50  0001 C CNN "Digikey Part Num"
 	1    8750 13300
 	1    0    0    -1  
 $EndComp
@@ -3080,6 +3084,7 @@ F 0 "J14" H 8520 14646 50  0000 R CNN
 F 1 "AH1815 Breakout" H 8520 14555 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 8750 14600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 8750 14600 50  0001 C CNN
+F 4 "455-1705-ND" H 8750 14600 50  0001 C CNN "Digikey Part Num"
 	1    8750 14600
 	1    0    0    -1  
 $EndComp
@@ -3113,6 +3118,7 @@ F 0 "J15" H 9720 12046 50  0000 R CNN
 F 1 "AH1815 Breakout" H 9720 11955 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 9950 12000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 9950 12000 50  0001 C CNN
+F 4 "455-1705-ND" H 9950 12000 50  0001 C CNN "Digikey Part Num"
 	1    9950 12000
 	1    0    0    -1  
 $EndComp
@@ -3148,6 +3154,7 @@ F 0 "J16" H 9770 13346 50  0000 R CNN
 F 1 "AH1815 Breakout" H 9770 13255 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 10000 13300 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 10000 13300 50  0001 C CNN
+F 4 "455-1705-ND" H 10000 13300 50  0001 C CNN "Digikey Part Num"
 	1    10000 13300
 	1    0    0    -1  
 $EndComp
@@ -3183,6 +3190,7 @@ F 0 "J17" H 9770 14646 50  0000 R CNN
 F 1 "AH1815 Breakout" H 9770 14555 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 10000 14600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 10000 14600 50  0001 C CNN
+F 4 "455-1705-ND" H 10000 14600 50  0001 C CNN "Digikey Part Num"
 	1    10000 14600
 	1    0    0    -1  
 $EndComp
@@ -3218,6 +3226,7 @@ F 0 "J18" H 10970 12046 50  0000 R CNN
 F 1 "AH1815 Breakout" H 10970 11955 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 11200 12000 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 11200 12000 50  0001 C CNN
+F 4 "455-1705-ND" H 11200 12000 50  0001 C CNN "Digikey Part Num"
 	1    11200 12000
 	1    0    0    -1  
 $EndComp
@@ -3253,6 +3262,7 @@ F 0 "J19" H 11020 13346 50  0000 R CNN
 F 1 "AH1815 Breakout" H 11020 13255 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 11250 13300 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 11250 13300 50  0001 C CNN
+F 4 "455-1705-ND" H 11250 13300 50  0001 C CNN "Digikey Part Num"
 	1    11250 13300
 	1    0    0    -1  
 $EndComp
@@ -3288,6 +3298,7 @@ F 0 "J20" H 11020 14646 50  0000 R CNN
 F 1 "AH1815 Breakout" H 11020 14555 50  0000 R CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 11250 14600 50  0001 C CNN
 F 3 "https://www.diodes.com/assets/Datasheets/AH1806.pdf" H 11250 14600 50  0001 C CNN
+F 4 "455-1705-ND" H 11250 14600 50  0001 C CNN "Digikey Part Num"
 	1    11250 14600
 	1    0    0    -1  
 $EndComp
@@ -3461,6 +3472,7 @@ F 0 "SW1" H 12750 9785 50  0000 C CNN
 F 1 "E-Stop" H 12750 9694 50  0000 C CNN
 F 2 "Connector_JST:JST_PH_B3B-PH-K_1x03_P2.00mm_Vertical" H 12750 9500 50  0001 C CNN
 F 3 "~" H 12750 9500 50  0001 C CNN
+F 4 "455-1705-ND" H 12750 9500 50  0001 C CNN "Digikey Part Num"
 	1    12750 9500
 	1    0    0    -1  
 $EndComp
@@ -3495,6 +3507,7 @@ F 0 "J25" H 13003 10496 50  0000 L CNN
 F 1 "Solenoid" H 13003 10405 50  0000 L CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 12950 10450 50  0001 C CNN
 F 3 "~" H 12950 10450 50  0001 C CNN
+F 4 "455-2247-ND" H 12950 10450 50  0001 C CNN "Digikey Part Num"
 	1    12950 10450
 	1    0    0    -1  
 $EndComp
@@ -3571,4 +3584,46 @@ F 3 "" H 12950 10300 50  0001 C CNN
 $EndComp
 Text Label 12400 10900 2    50   ~ 0
 ~Disable
+$Comp
+L Connector_Generic:Conn_01x04 J26
+U 1 1 5FBD85C2
+P 14200 7850
+F 0 "J26" H 14118 7425 50  0000 C CNN
+F 1 "Stepper Alternate Connection" H 14118 7516 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_S4B-XH-A_1x04_P2.50mm_Horizontal" H 14200 7850 50  0001 C CNN
+F 3 "~" H 14200 7850 50  0001 C CNN
+F 4 "455-2243-ND" H 14200 7850 50  0001 C CNN "Digikey Part Num"
+	1    14200 7850
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	14000 7650 13700 7650
+Wire Wire Line
+	13700 7650 13700 6900
+Connection ~ 13700 6900
+Wire Wire Line
+	13700 6900 13200 6900
+Wire Wire Line
+	14000 7750 13600 7750
+Wire Wire Line
+	13600 7750 13600 7000
+Connection ~ 13600 7000
+Wire Wire Line
+	13600 7000 13750 7000
+Wire Wire Line
+	13200 7000 13600 7000
+Wire Wire Line
+	14000 7850 13500 7850
+Wire Wire Line
+	13500 7850 13500 7100
+Connection ~ 13500 7100
+Wire Wire Line
+	13500 7100 13200 7100
+Wire Wire Line
+	14000 7950 13400 7950
+Wire Wire Line
+	13400 7950 13400 7200
+Connection ~ 13400 7200
+Wire Wire Line
+	13400 7200 13750 7200
 $EndSCHEMATC
