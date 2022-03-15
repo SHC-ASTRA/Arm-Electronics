@@ -2537,10 +2537,10 @@ L ArmElectronics_Library:MAX11601 U3
 U 1 1 5FC61A34
 P 9400 9050
 F 0 "U3" H 9400 8461 50  0000 C CNN
-F 1 "MAX11601" H 9400 8370 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-8_Handsoldering" H 9850 8700 50  0001 L CNN
-F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11612-MAX11617.pdf" H 9500 9550 50  0001 C CNN
-F 4 "MAX11601EKA+TCT-ND" H 9400 9050 50  0001 C CNN "Digikey Part Num"
+F 1 "MAX11607" H 9400 8370 50  0000 C CNN
+F 2 "Package_SO:TSSOP-8_3x3mm_P0.65mm" H 9850 8700 50  0001 L CNN
+F 3 "https://datasheets.maximintegrated.com/en/ds/MAX11606-MAX11611.pdf" H 9500 9550 50  0001 C CNN
+F 4 "MAX11607EUA+-ND" H 9400 9050 50  0001 C CNN "Digikey Part Num"
 	1    9400 9050
 	1    0    0    -1  
 $EndComp
