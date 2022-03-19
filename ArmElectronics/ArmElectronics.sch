@@ -58,7 +58,7 @@ F 0 "J22" H 14500 1915 50  0000 C CNN
 F 1 "PA-09" H 14500 1824 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 14500 1250 50  0001 C CNN
 F 3 "" H 14500 1250 50  0001 C CNN
-F 4 "WM3802-ND" H 14200 1400 50  0001 C CNN "Digikey Part Num"
+F 4 "WM2290-ND" H 14200 1400 50  0001 C CNN "Digikey Part Num"
 	1    14200 1400
 	1    0    0    -1  
 $EndComp
@@ -151,7 +151,7 @@ F 0 "J23" H 14500 3565 50  0000 C CNN
 F 1 "PA-09" H 14500 3474 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 14500 2900 50  0001 C CNN
 F 3 "" H 14500 2900 50  0001 C CNN
-F 4 "WM3802-ND" H 14200 3050 50  0001 C CNN "Digikey Part Num"
+F 4 "WM2290-ND" H 14200 3050 50  0001 C CNN "Digikey Part Num"
 	1    14200 3050
 	1    0    0    -1  
 $EndComp
@@ -254,7 +254,7 @@ F 0 "J24" H 14500 5165 50  0000 C CNN
 F 1 "PA-09" H 14500 5074 50  0000 C CNN
 F 2 "Connector_Molex:Molex_Mini-Fit_Jr_5566-06A_2x03_P4.20mm_Vertical" H 14500 4500 50  0001 C CNN
 F 3 "" H 14500 4500 50  0001 C CNN
-F 4 "WM3802-ND" H 14200 4650 50  0001 C CNN "Digikey Part Num"
+F 4 "WM2290-ND" H 14200 4650 50  0001 C CNN "Digikey Part Num"
 	1    14200 4650
 	1    0    0    -1  
 $EndComp
